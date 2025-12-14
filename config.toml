@@ -1,0 +1,64 @@
+base_url = "https://sudomakeinstall.github.io/sudomakeinstall"
+title = "sudomakeinstall"
+description = "All the things I'm trying not to forget."
+author = "Davis Marc Vigneault"
+default_language = "en"
+theme = "tabi"
+
+compile_sass = true
+minify_html = true
+generate_feeds = true
+build_search_index = true
+
+[search]
+include_title = true
+include_description = true
+include_content = true
+truncate_content_length = 100
+index_format = "elasticlunr_json"
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+smart_punctuation = true
+
+[extra]
+# Theme customization
+skin = "red"  # Options: teal, blue, lavender, mint, red, sakura, monochrome
+browser_theme_color = "#087e96"
+
+# Code blocks
+show_copy_button = true
+copy_button_labels = "copy"
+
+# Content features
+show_reading_time = false
+quick_navigation_buttons = true
+toc = true
+
+# Social links
+social_media_cards = false
+
+[[extra.menu]]
+name = "Radiology"
+url = "radiology"
+
+[[extra.menu]]
+name = "Blog"
+url = "blog"
+
+[[extra.menu]]
+name = "Projects"
+url = "projects"
+
+[[extra.menu]]
+name = "Archive"
+url = "archive"
+
+[[extra.menu]]
+name = "About"
+url = "about"
+
+[[taxonomies]]
+name = "tags"
+feed = true
