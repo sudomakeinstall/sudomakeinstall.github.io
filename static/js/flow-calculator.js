@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (resultsDiv) {
       resultsDiv.innerHTML = '<h4>Calculated Values:</h4>';
       if (!allValid) {
-        resultsDiv.innerHTML += '<p style="color: var(--error-color, #ff4444);">⚠️ Some inputs contain invalid numbers</p>';
+        resultsDiv.innerHTML += '<p class="error-message">⚠️ Some inputs contain invalid numbers</p>';
       }
       resultsDiv.innerHTML += '<p>Add your calculations here...</p>';
     }
