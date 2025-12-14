@@ -4,42 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
   inputs.forEach(id => {
     const element = document.getElementById(id);
     if (element) {
-      element.addEventListener('input', function(e) {
-        validateNumericInput(e.target);
-        calculateFlows();
-      });
-
-      element.addEventListener('blur', function(e) {
-        validateNumericInput(e.target);
-      });
+      element.addEventListener('input', calculateFlows);
     }
   });
-
-  function validateNumericInput(input) {
-    const value = input.value.trim();
-
-    // Empty is valid (will be treated as 0)
-    if (value === '') {
-      input.classList.remove('invalid-input');
-      return true;
-    }
-
-    // Check if it's a valid number
-    const num = parseFloat(value);
-    const isValid = !isNaN(num) && isFinite(num);
-
-    console.log('Validating:', value, 'Result:', isValid, 'Parsed:', num);
-
-    if (isValid) {
-      input.classList.remove('invalid-input');
-      console.log('Removed invalid-input class');
-    } else {
-      input.classList.add('invalid-input');
-      console.log('Added invalid-input class, current classes:', input.className);
-    }
-
-    return isValid;
-  }
 
   function calculateFlows() {
     const values = {};
@@ -48,17 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
     inputs.forEach(id => {
       const element = document.getElementById(id);
       if (element) {
-        const value = element.value.trim();
-        if (value === '') {
+        if (!element.validity.valid) {
+          allValid = false;
           values[id] = 0;
         } else {
-          const num = parseFloat(value);
-          if (!isNaN(num) && isFinite(num)) {
-            values[id] = num;
-          } else {
-            values[id] = 0;
-            allValid = false;
-          }
+          const value = element.value.trim();
+          values[id] = value === '' ? 0 : parseFloat(value);
         }
       }
     });

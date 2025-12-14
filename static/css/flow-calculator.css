@@ -42,7 +42,7 @@
   border-color: var(--primary-color);
 }
 
-.input-group input.invalid-input {
+.input-group input:invalid {
   border-color: #ff4444;
   background-color: rgba(255, 68, 68, 0.1);
 }
