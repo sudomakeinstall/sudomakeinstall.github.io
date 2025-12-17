@@ -34,7 +34,7 @@ copy_button_labels = "copy"
 # Content features
 show_reading_time = false
 quick_navigation_buttons = true
-toc = true
+toc = false
 
 # Social links
 social_media_cards = false
@@ -42,18 +42,6 @@ social_media_cards = false
 [[extra.menu]]
 name = "Radiology"
 url = "radiology"
-
-[[extra.menu]]
-name = "Blog"
-url = "blog"
-
-[[extra.menu]]
-name = "Projects"
-url = "projects"
-
-[[extra.menu]]
-name = "Archive"
-url = "archive"
 
 [[extra.menu]]
 name = "About"

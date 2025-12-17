@@ -1,5 +1,4 @@
-/* Custom styles for flow calculators */
-#calculator-1, #calculator-2 {
+#bsa-calculator {
   padding: 1.5rem;
   margin: 1.5rem 0;
   border: 1px solid var(--divider);
@@ -7,7 +6,7 @@
   background: var(--bg-alt);
 }
 
-.flow-inputs {
+.bsa-inputs {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.25rem;
@@ -15,20 +14,20 @@
   max-width: 400px;
 }
 
-.input-group {
+.bsa-inputs .input-group {
   display: grid;
   grid-template-columns: 120px 1fr;
   align-items: center;
   gap: 1rem;
 }
 
-.input-group label {
+.bsa-inputs .input-group label {
   font-weight: 600;
   text-align: right;
   color: var(--text);
 }
 
-.input-group input {
+.bsa-inputs .input-group input {
   padding: 0.5rem;
   border: 1px solid var(--divider);
   border-radius: 4px;
@@ -37,24 +36,23 @@
   font-size: 1rem;
 }
 
-.input-group input:focus {
+.bsa-inputs .input-group input:focus {
   outline: none;
   border-color: var(--primary-color);
 }
 
-.input-group input:invalid {
+.bsa-inputs .input-group input:invalid {
   border-color: #ff4444;
   background-color: rgba(255, 68, 68, 0.1);
 }
 
-.results {
+#bsa-results {
   margin-top: 1.5rem;
   padding: 1rem;
   border-top: 2px solid var(--divider);
-  max-width: 800px;
 }
 
-.results h3 {
+#bsa-results h3 {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1rem;
@@ -62,20 +60,20 @@
   color: var(--primary-color);
 }
 
-.results .error-message {
+#bsa-results .error-message {
   color: var(--error-color, #ff4444);
 }
 
-.results p {
+#bsa-results p {
   margin: 0.25rem 0;
   font-weight: 400;
 }
 
-.results p strong {
+#bsa-results p strong {
   font-weight: 600;
 }
 
-.results textarea {
+#bsa-results textarea {
   width: 100% !important;
   max-width: 800px !important;
 }
