@@ -1,14 +1,8 @@
 +++
 title = "Home"
-description = "Welcome to my developer portfolio and blog"
-
-[extra]
-section_path = "blog/_index.md"
-max_posts = 5
+description = "Welcome to my personal website"
 +++
 
-# Hi, I'm [Your Name]
+## About Me
 
-[Brief introduction about yourself - developer, interests, specialties]
-
-Check out my [blog](/blog) for technical articles and [projects](/projects) for portfolio work.
+I'm a radiologist and programmer in the bay area with interests in cardiovascular imaging and computer vision.
