@@ -1,0 +1,95 @@
+/* Shared styles for all calculators */
+
+/* Calculator container base styles */
+[id$="-calculator"],
+[id^="calculator-"] {
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border: 1px solid var(--divider);
+  border-radius: 8px;
+  background: var(--bg-alt);
+}
+
+/* Input container styles */
+.flow-inputs,
+.bsa-inputs,
+.bernoulli-inputs {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.25rem;
+  margin: 1rem 0;
+  max-width: 400px;
+}
+
+/* Input group layout */
+.input-group {
+  display: grid;
+  grid-template-columns: var(--label-width, 120px) 1fr 70px;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-group label {
+  font-weight: 600;
+  text-align: right;
+  color: var(--text);
+}
+
+.input-group input {
+  padding: 0.5rem;
+  border: 1px solid var(--divider);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.input-group input:invalid {
+  border-color: #ff4444;
+  background-color: rgba(255, 68, 68, 0.1);
+}
+
+/* Results section base styles */
+.results,
+[id$="-results"] {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-top: 2px solid var(--divider);
+  max-width: 800px;
+}
+
+.results h3,
+[id$="-results"] h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.results .error-message,
+.error-message {
+  color: var(--error-color, #ff4444);
+}
+
+.results p,
+[id$="-results"] p {
+  margin: 0.25rem 0;
+  font-weight: 400;
+}
+
+.results p strong,
+[id$="-results"] p strong {
+  font-weight: 600;
+}
+
+.results textarea,
+[id$="-results"] textarea {
+  width: 100% !important;
+  max-width: 800px !important;
+}
