@@ -40,11 +40,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const qsv = hasValue.svc && hasValue.ivc ? values.svc + values.ivc : null;
     const qpv = hasValue.lpv && hasValue.rpv ? values.lpv + values.rpv : null;
+    const qpa = hasValue.rpa && hasValue.lpa ? values.rpa + values.lpa : null;
+    const mpaValue = hasValue.mpa ? values.mpa : qpa;
 
     let bsa = null;
     if (hasValue.height && hasValue.weight && values.height > 0 && values.weight > 0) {
       bsa = 0.007184 * Math.pow(values.height, 0.725) * Math.pow(values.weight, 0.425);
-      text += `Biometrics: ${values.weight.toFixed(0)} kg, ${values.height.toFixed(0)} cm, BSA ${bsa.toFixed(2)} m^2\n\n`;
+      text += `Biometrics: ${values.weight.toFixed(0)} kg, ${values.height.toFixed(0)} cm, BSA ${bsa.toFixed(2)} m^2 (DuBois)\n\n`;
       hasResults = true;
     }
 
@@ -69,13 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (qsv !== null) {
         text += `Total caval return: ${qsv.toFixed(2)} L/min`;
         if (bsa) text += `, ${(qsv / bsa).toFixed(2)} L/min/m^2`;
-        text += '\n';
-      }
-
-      if (hasValue.mpa) {
-        text += `MPA: ${values.mpa.toFixed(2)} L/min`;
-        if (bsa) text += `, ${(values.mpa / bsa).toFixed(2)} L/min/m^2`;
-        text += '\n';
+        text += '\n\n';
       }
 
       if (hasValue.rpa) {
@@ -88,6 +84,16 @@ document.addEventListener('DOMContentLoaded', function() {
         text += `LPA: ${values.lpa.toFixed(2)} L/min`;
         if (bsa) text += `, ${(values.lpa / bsa).toFixed(2)} L/min/m^2`;
         text += '\n';
+      }
+
+      if (hasValue.mpa) {
+        text += `MPA: ${values.mpa.toFixed(2)} L/min`;
+        if (bsa) text += `, ${(values.mpa / bsa).toFixed(2)} L/min/m^2`;
+        text += '\n\n';
+      } else if (qpa !== null) {
+        text += `Total pulmonary arterial flow: ${qpa.toFixed(2)} L/min`;
+        if (bsa) text += `, ${(qpa / bsa).toFixed(2)} L/min/m^2`;
+        text += '\n\n';
       }
 
       if (hasValue.rpv) {
@@ -105,13 +111,13 @@ document.addEventListener('DOMContentLoaded', function() {
       if (qpv !== null) {
         text += `Total pulmonary venous return: ${qpv.toFixed(2)} L/min`;
         if (bsa) text += `, ${(qpv / bsa).toFixed(2)} L/min/m^2`;
-        text += '\n';
+        text += '\n\n';
       }
 
       if (hasValue.ao) {
         text += `Ao: ${values.ao.toFixed(2)} L/min`;
         if (bsa) text += `, ${(values.ao / bsa).toFixed(2)} L/min/m^2`;
-        text += '\n';
+        text += '\n\n';
       }
 
       hasResults = true;
@@ -141,16 +147,16 @@ document.addEventListener('DOMContentLoaded', function() {
       hasResults = true;
     }
 
-    const hasShuntFractions = (hasValue.mpa && hasValue.ao && values.ao > 0) ||
+    const hasShuntFractions = (mpaValue !== null && hasValue.ao && values.ao > 0) ||
                               (qpv !== null && hasValue.ao && values.ao > 0) ||
-                              (hasValue.mpa && qsv !== null && qsv > 0) ||
+                              (mpaValue !== null && qsv !== null && qsv > 0) ||
                               (qpv !== null && qsv !== null && qsv > 0);
 
     if (hasShuntFractions) {
       text += '\nShunt fractions:\n\n';
 
-      if (hasValue.mpa && hasValue.ao && values.ao > 0) {
-        const qpaQsa = (values.mpa / values.ao).toFixed(2);
+      if (mpaValue !== null && hasValue.ao && values.ao > 0) {
+        const qpaQsa = (mpaValue / values.ao).toFixed(2);
         text += `Qpa:Qsa: ${qpaQsa}\n`;
       }
 
@@ -159,8 +165,8 @@ document.addEventListener('DOMContentLoaded', function() {
         text += `Qpv:Qsa: ${qpvQsa}\n`;
       }
 
-      if (hasValue.mpa && qsv !== null && qsv > 0) {
-        const qpaQsv = (values.mpa / qsv).toFixed(2);
+      if (mpaValue !== null && qsv !== null && qsv > 0) {
+        const qpaQsv = (mpaValue / qsv).toFixed(2);
         text += `Qpa:Qsv: ${qpaQsv}\n`;
       }
 
@@ -173,8 +179,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const hasCollateral = (hasValue.ao && qsv !== null) ||
-                          (qpv !== null && hasValue.mpa) ||
-                          (hasValue.ao && qsv !== null && qpv !== null && hasValue.mpa);
+                          (qpv !== null && mpaValue !== null) ||
+                          (hasValue.ao && qsv !== null && qpv !== null && mpaValue !== null);
 
     if (hasCollateral) {
       text += '\nCollateral flow:\n\n';
@@ -185,15 +191,15 @@ document.addEventListener('DOMContentLoaded', function() {
         text += `Qcoll-syst (Qsa - Qsv): ${qCollSyst.toFixed(2)} L/min (${qCollSystPercent}% of aortic flow)\n`;
       }
 
-      if (qpv !== null && hasValue.mpa) {
-        const qCollPulm = qpv - values.mpa;
+      if (qpv !== null && mpaValue !== null) {
+        const qCollPulm = qpv - mpaValue;
         const qCollPulmPercent = hasValue.ao && values.ao > 0 ? (qCollPulm / values.ao * 100).toFixed(1) : '0.0';
         text += `Qcoll-pulm (Qpv - Qpa): ${qCollPulm.toFixed(2)} L/min (${qCollPulmPercent}% of aortic flow)\n`;
       }
 
-      if (hasValue.ao && qsv !== null && qpv !== null && hasValue.mpa) {
+      if (hasValue.ao && qsv !== null && qpv !== null && mpaValue !== null) {
         const qCollSyst = values.ao - qsv;
-        const qCollPulm = qpv - values.mpa;
+        const qCollPulm = qpv - mpaValue;
         const qCollAvg = (qCollSyst + qCollPulm) / 2;
         const qCollAvgPercent = values.ao > 0 ? (qCollAvg / values.ao * 100).toFixed(1) : '0.0';
         text += `Qcoll ((Qcoll-syst + Qcoll-pulm) / 2): ${qCollAvg.toFixed(2)} L/min (${qCollAvgPercent}% of aortic flow)\n`;
