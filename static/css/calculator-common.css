@@ -21,10 +21,10 @@
   max-width: 400px;
 }
 
-/* Input group layout */
+/* Input group layout - 3 columns: label, input, unit */
 .input-group {
   display: grid;
-  grid-template-columns: var(--label-width, 120px) 1fr 70px;
+  grid-template-columns: 120px 1fr 70px;
   align-items: center;
   gap: 1rem;
 }
@@ -52,6 +52,10 @@
 .input-group input:invalid {
   border-color: #ff4444;
   background-color: rgba(255, 68, 68, 0.1);
+}
+
+.input-group .unit {
+  color: var(--text);
 }
 
 /* Results section base styles */

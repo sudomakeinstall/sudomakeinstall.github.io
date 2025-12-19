@@ -5,7 +5,7 @@ date = 2025-12-14
 weight = 2
 
 [extra]
-stylesheets = ["css/bsa-calculator.css"]
+stylesheets = ["css/calculator-common.css"]
 scripts = ["js/bsa-calculator.js"]
 +++
 
@@ -17,12 +17,14 @@ Calculate body surface area (BSA) using the DuBois formula.
   <h3>Input Parameters</h3>
   <div class="bsa-inputs">
     <div class="input-group">
-      <label for="height">Height (cm):</label>
+      <label for="height">Height:</label>
       <input type="number" step="any" inputmode="decimal" id="height" placeholder="170">
+      <span class="unit">cm</span>
     </div>
     <div class="input-group">
-      <label for="weight">Weight (kg):</label>
+      <label for="weight">Weight:</label>
       <input type="number" step="any" inputmode="decimal" id="weight" placeholder="70">
+      <span class="unit">kg</span>
     </div>
   </div>
   <h3>Calculated Values:</h3>

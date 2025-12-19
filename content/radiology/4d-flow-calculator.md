@@ -5,7 +5,7 @@ date = 2025-12-12
 weight = 1
 
 [extra]
-stylesheets = ["css/flow-calculator.css"]
+stylesheets = ["css/calculator-common.css"]
 scripts = ["js/flow-calculator.js"]
 +++
 
