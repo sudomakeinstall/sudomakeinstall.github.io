@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const v1 = v1Value === '' ? 0 : parseFloat(v1Value);
 
     if (!v2Input.validity.valid || isNaN(v2) || v2 < 0) {
-      resultsCode.textContent = '⚠️ Invalid vᵤ (must be ≥ 0 m/s)';
+      resultsCode.textContent = '⚠️ Invalid vd (must be ≥ 0 m/s)';
       updatingFrom = 'v2';
       pressureInput.value = '';
       updatingFrom = null;
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (v1Value !== '' && (!v1Input.validity.valid || isNaN(v1) || v1 < 0)) {
-      resultsCode.textContent = '⚠️ Invalid vₚ (must be ≥ 0 m/s)';
+      resultsCode.textContent = '⚠️ Invalid vp (must be ≥ 0 m/s)';
       updatingFrom = 'v2';
       pressureInput.value = '';
       updatingFrom = null;
@@ -67,9 +67,9 @@ document.addEventListener('DOMContentLoaded', function() {
     updatingFrom = null;
 
     if (v1 > 0) {
-      resultsCode.textContent = `vₚ = ${v1.toFixed(2)} m/s, vᵤ = ${v2.toFixed(2)} m/s → ΔP = ${pressure.toFixed(2)} mmHg`;
+      resultsCode.textContent = `vp = ${v1.toFixed(2)} m/s\nvd = ${v2.toFixed(2)} m/s\ndP = ${pressure.toFixed(2)} mmHg`;
     } else {
-      resultsCode.textContent = `vᵤ = ${v2.toFixed(2)} m/s → ΔP = ${pressure.toFixed(2)} mmHg`;
+      resultsCode.textContent = `vd = ${v2.toFixed(2)} m/s\ndP = ${pressure.toFixed(2)} mmHg`;
     }
   }
 
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const v1 = v1Value === '' ? 0 : parseFloat(v1Value);
 
     if (!pressureInput.validity.valid || isNaN(pressure) || pressure < 0) {
-      resultsCode.textContent = '⚠️ Invalid ΔP (must be ≥ 0 mmHg)';
+      resultsCode.textContent = '⚠️ Invalid dP (must be ≥ 0 mmHg)';
       updatingFrom = 'pressure';
       v2Input.value = '';
       updatingFrom = null;
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (v1Value !== '' && (!v1Input.validity.valid || isNaN(v1) || v1 < 0)) {
-      resultsCode.textContent = '⚠️ Invalid vₚ (must be ≥ 0 m/s)';
+      resultsCode.textContent = '⚠️ Invalid vp (must be ≥ 0 m/s)';
       updatingFrom = 'pressure';
       v2Input.value = '';
       updatingFrom = null;
@@ -110,9 +110,9 @@ document.addEventListener('DOMContentLoaded', function() {
     updatingFrom = null;
 
     if (v1 > 0) {
-      resultsCode.textContent = `vₚ = ${v1.toFixed(2)} m/s, ΔP = ${pressure.toFixed(2)} mmHg → vᵤ = ${v2.toFixed(3)} m/s`;
+      resultsCode.textContent = `vp = ${v1.toFixed(2)} m/s\ndP = ${pressure.toFixed(2)} mmHg\nvd = ${v2.toFixed(3)} m/s`;
     } else {
-      resultsCode.textContent = `ΔP = ${pressure.toFixed(2)} mmHg → vᵤ = ${v2.toFixed(3)} m/s`;
+      resultsCode.textContent = `dP = ${pressure.toFixed(2)} mmHg\nvd = ${v2.toFixed(3)} m/s`;
     }
   }
 });
