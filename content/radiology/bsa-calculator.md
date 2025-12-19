@@ -5,6 +5,7 @@ date = 2025-12-14
 weight = 2
 
 [extra]
+katex = true
 stylesheets = ["css/calculator-common.css"]
 scripts = ["js/bsa-calculator.js"]
 +++
@@ -30,5 +31,16 @@ Calculate body surface area (BSA) using the DuBois formula.
   <h3>Calculated Values:</h3>
   <pre><code id="bsa-results-code">Results will appear here.</code></pre>
 </div>
+
+## DuBois Formula
+
+$$
+\text{BSA} = 0.007184 \times \text{height}^{0.725} \times \text{weight}^{0.425}
+$$
+
+where:
+- BSA = body surface area (m²)
+- height = height (cm)
+- weight = weight (kg)
 
 <script src="/js/bsa-calculator.js"></script>
