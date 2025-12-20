@@ -1,22 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const inputs = ['height', 'weight'];
+  const inputs = ['height', 'weight', 'formula'];
 
   inputs.forEach(id => {
     const element = document.getElementById(id);
     if (element) {
       element.addEventListener('input', calculateBSA);
+      element.addEventListener('change', calculateBSA);
     }
   });
 
   function calculateBSA() {
     const heightEl = document.getElementById('height');
     const weightEl = document.getElementById('weight');
+    const formulaEl = document.getElementById('formula');
     const codeBlock = document.getElementById('bsa-results-code');
 
     if (!codeBlock) return;
 
     const heightValue = heightEl.value.trim();
     const weightValue = weightEl.value.trim();
+    const formula = formulaEl ? formulaEl.value : 'dubois';
 
     if (heightValue === '' && weightValue === '') {
       codeBlock.textContent = '';
@@ -37,7 +40,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (height > 0 && weight > 0) {
-      const bsa = 0.007184 * Math.pow(height, 0.725) * Math.pow(weight, 0.425);
+      let bsa;
+      if (formula === 'mosteller') {
+        bsa = Math.sqrt((height * weight) / 3600);
+      } else {
+        bsa = 0.007184 * Math.pow(height, 0.725) * Math.pow(weight, 0.425);
+      }
       const text = `Biometrics: ${weight.toFixed(0)} kg, ${height.toFixed(0)} cm, BSA ${bsa.toFixed(2)} m^2`;
       codeBlock.textContent = text;
     }

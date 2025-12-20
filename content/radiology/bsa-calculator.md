@@ -12,7 +12,7 @@ scripts = ["js/bsa-calculator.js"]
 
 # Body Surface Area Calculator
 
-Calculate body surface area (BSA) using the DuBois formula.
+Calculate body surface area (BSA) using the DuBois or Mosteller formula.
 
 <div id="bsa-calculator">
   <h3>Input Parameters</h3>
@@ -27,6 +27,13 @@ Calculate body surface area (BSA) using the DuBois formula.
       <input type="number" step="any" inputmode="decimal" id="weight" placeholder="70">
       <span class="unit">kg</span>
     </div>
+    <div class="input-group">
+      <label for="formula">Formula:</label>
+      <select id="formula">
+        <option value="dubois">DuBois</option>
+        <option value="mosteller">Mosteller</option>
+      </select>
+    </div>
   </div>
   <h3>Calculated Values:</h3>
   <pre><code id="bsa-results-code">Results will appear here.</code></pre>
@@ -36,6 +43,12 @@ Calculate body surface area (BSA) using the DuBois formula.
 
 $$
 \text{BSA} = 0.007184 \times \text{height}^{0.725} \times \text{weight}^{0.425}
+$$
+
+## Mosteller Formula
+
+$$
+\text{BSA} = \sqrt{\frac{\text{height} \times \text{weight}}{3600}}
 $$
 
 where:
