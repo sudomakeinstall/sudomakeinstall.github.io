@@ -4,9 +4,34 @@ document.addEventListener('DOMContentLoaded', function() {
   inputs.forEach(id => {
     const element = document.getElementById(id);
     if (element) {
-      element.addEventListener('input', calculateECV);
+      element.addEventListener('input', onInputChange);
     }
   });
+
+  setupCopyLinkButton('copy-link-btn');
+
+  const params = readUrlHash();
+  if (Object.keys(params).length > 0) {
+    inputs.forEach(id => {
+      const el = document.getElementById(id);
+      if (el && params[id] !== undefined) el.value = params[id];
+    });
+    calculateECV();
+  }
+
+  function onInputChange() {
+    calculateECV();
+    syncToUrl();
+  }
+
+  function syncToUrl() {
+    const params = {};
+    inputs.forEach(id => {
+      const el = document.getElementById(id);
+      if (el && el.value.trim() !== '') params[id] = el.value.trim();
+    });
+    updateUrlHash(params);
+  }
 
   function calculateECV() {
     const t1PreMyoEl = document.getElementById('t1-pre-myo');

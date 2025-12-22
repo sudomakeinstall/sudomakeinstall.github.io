@@ -45,6 +45,7 @@ Calculate extracellular volume fraction from cardiac MRI T1 mapping.
   </div>
   <h3>Calculated Values:</h3>
   <pre><code id="ecv-results-code">Results will appear here.</code></pre>
+  <button id="copy-link-btn" class="copy-link-btn">Copy Link</button>
 </div>
 
 ## Formula

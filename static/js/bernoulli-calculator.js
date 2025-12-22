@@ -16,19 +16,46 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       calculatePressure();
     }
+    syncToUrl();
   });
 
   v2Input.addEventListener('input', function() {
     if (updatingFrom) return;
     lastEdited = 'v2';
     calculatePressure();
+    syncToUrl();
   });
 
   pressureInput.addEventListener('input', function() {
     if (updatingFrom) return;
     lastEdited = 'pressure';
     calculateV2();
+    syncToUrl();
   });
+
+  setupCopyLinkButton('copy-link-btn');
+
+  const params = readUrlHash();
+  if (Object.keys(params).length > 0) {
+    if (params['velocity-proximal'] !== undefined) v1Input.value = params['velocity-proximal'];
+    if (params['velocity'] !== undefined) v2Input.value = params['velocity'];
+    if (params['pressure'] !== undefined) pressureInput.value = params['pressure'];
+    lastEdited = params['lastEdited'] || null;
+    if (lastEdited === 'pressure') {
+      calculateV2();
+    } else if (v2Input.value.trim() !== '') {
+      calculatePressure();
+    }
+  }
+
+  function syncToUrl() {
+    const params = {};
+    if (v1Input.value.trim() !== '') params['velocity-proximal'] = v1Input.value.trim();
+    if (v2Input.value.trim() !== '') params['velocity'] = v2Input.value.trim();
+    if (pressureInput.value.trim() !== '') params['pressure'] = pressureInput.value.trim();
+    if (lastEdited) params['lastEdited'] = lastEdited;
+    updateUrlHash(params);
+  }
 
   function calculatePressure() {
     const v2Value = v2Input.value.trim();

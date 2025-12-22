@@ -68,6 +68,7 @@ scripts = ["js/flow-calculator.js"]
   </div>
   <h3>Calculated Values:</h3>
   <pre><code id="flow-results-code">Results will appear here.</code></pre>
+  <button id="copy-link-btn" class="copy-link-btn">Copy Link</button>
 </div>
 
 <script src="/js/calculator-common.js"></script>

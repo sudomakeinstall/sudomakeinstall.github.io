@@ -4,10 +4,35 @@ document.addEventListener('DOMContentLoaded', function() {
   inputs.forEach(id => {
     const element = document.getElementById(id);
     if (element) {
-      element.addEventListener('input', calculateBSA);
-      element.addEventListener('change', calculateBSA);
+      element.addEventListener('input', onInputChange);
+      element.addEventListener('change', onInputChange);
     }
   });
+
+  setupCopyLinkButton('copy-link-btn');
+
+  const params = readUrlHash();
+  if (Object.keys(params).length > 0) {
+    inputs.forEach(id => {
+      const el = document.getElementById(id);
+      if (el && params[id] !== undefined) el.value = params[id];
+    });
+    calculateBSA();
+  }
+
+  function onInputChange() {
+    calculateBSA();
+    syncToUrl();
+  }
+
+  function syncToUrl() {
+    const params = {};
+    inputs.forEach(id => {
+      const el = document.getElementById(id);
+      if (el && el.value.trim() !== '') params[id] = el.value.trim();
+    });
+    updateUrlHash(params);
+  }
 
   function calculateBSA() {
     const heightEl = document.getElementById('height');

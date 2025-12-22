@@ -37,6 +37,7 @@ Calculate body surface area (BSA) using the DuBois or Mosteller formula.
   </div>
   <h3>Calculated Values:</h3>
   <pre><code id="bsa-results-code">Results will appear here.</code></pre>
+  <button id="copy-link-btn" class="copy-link-btn">Copy Link</button>
 </div>
 
 ## DuBois Formula
