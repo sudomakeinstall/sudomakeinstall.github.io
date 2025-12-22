@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const v1Value = v1Input.value.trim();
 
     if (v2Value === '') {
-      resultsCode.textContent = '';
+      resultsCode.textContent = CALCULATOR_PLACEHOLDER;
       updatingFrom = 'v2';
       pressureInput.value = '';
       updatingFrom = null;
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const v1Value = v1Input.value.trim();
 
     if (pressureValue === '') {
-      resultsCode.textContent = '';
+      resultsCode.textContent = CALCULATOR_PLACEHOLDER;
       updatingFrom = 'pressure';
       v2Input.value = '';
       updatingFrom = null;

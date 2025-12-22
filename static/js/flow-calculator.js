@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const hasAnyInput = Object.values(hasValue).some(v => v);
     if (!hasAnyInput) {
       const codeBlock = document.getElementById('flow-results-code');
-      if (codeBlock) codeBlock.textContent = '';
+      if (codeBlock) codeBlock.textContent = CALCULATOR_PLACEHOLDER;
       return;
     }
 
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (hasResults) {
         codeBlock.textContent = text.trim();
       } else {
-        codeBlock.textContent = '';
+        codeBlock.textContent = CALCULATOR_PLACEHOLDER;
       }
     }
   }

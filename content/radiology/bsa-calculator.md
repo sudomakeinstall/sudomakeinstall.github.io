@@ -56,4 +56,5 @@ where:
 - height = height (cm)
 - weight = weight (kg)
 
+<script src="/js/calculator-common.js"></script>
 <script src="/js/bsa-calculator.js"></script>

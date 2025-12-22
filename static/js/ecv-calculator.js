@@ -29,14 +29,14 @@ document.addEventListener('DOMContentLoaded', function() {
                         hematocritValue !== '';
 
     if (!hasAnyInput) {
-      codeBlock.textContent = '';
+      codeBlock.textContent = CALCULATOR_PLACEHOLDER;
       return;
     }
 
     if (t1PreMyoValue === '' || t1PostMyoValue === '' ||
         t1PreBloodValue === '' || t1PostBloodValue === '' ||
         hematocritValue === '') {
-      codeBlock.textContent = '';
+      codeBlock.textContent = CALCULATOR_PLACEHOLDER;
       return;
     }
 

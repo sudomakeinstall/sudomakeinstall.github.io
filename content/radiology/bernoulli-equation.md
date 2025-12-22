@@ -113,4 +113,5 @@ where:
 - $v_d$ = distal velocity (m/s)
 - $v_p$ = proximal velocity (m/s)
 
+<script src="/js/calculator-common.js"></script>
 <script src="/js/bernoulli-calculator.js"></script>

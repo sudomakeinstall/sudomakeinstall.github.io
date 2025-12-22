@@ -68,4 +68,5 @@ $$
 - T1<sub>post</sub> = post-contrast T1 relaxation time (ms)
 - R1 = 1/T1 (longitudinal relaxation rate, s⁻¹)
 
+<script src="/js/calculator-common.js"></script>
 <script src="/js/ecv-calculator.js"></script>

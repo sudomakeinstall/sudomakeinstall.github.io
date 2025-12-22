@@ -70,4 +70,5 @@ scripts = ["js/flow-calculator.js"]
   <pre><code id="flow-results-code">Results will appear here.</code></pre>
 </div>
 
-<script src="/js/flow-calculator.js?v=4"></script>
+<script src="/js/calculator-common.js"></script>
+<script src="/js/flow-calculator.js"></script>

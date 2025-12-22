@@ -22,12 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const formula = formulaEl ? formulaEl.value : 'dubois';
 
     if (heightValue === '' && weightValue === '') {
-      codeBlock.textContent = '';
+      codeBlock.textContent = CALCULATOR_PLACEHOLDER;
       return;
     }
 
     if (heightValue === '' || weightValue === '') {
-      codeBlock.textContent = '';
+      codeBlock.textContent = CALCULATOR_PLACEHOLDER;
       return;
     }
 
