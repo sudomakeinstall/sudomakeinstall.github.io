@@ -19,7 +19,7 @@ index_format = "elasticlunr_json"
 
 [markdown]
 highlight_code = true
-highlight_theme = "css"
+highlight_theme = "gruvbox-dark"
 smart_punctuation = true
 
 [extra]
