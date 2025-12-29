@@ -16,8 +16,8 @@
       "sentenceEn": "She had a smile on her face."
     },
     {
-      "front": "los ojos",
-      "back": "eyes",
+      "front": "el ojo",
+      "back": "eye",
       "tags": ["body-parts"],
       "sentence": "Cerró <b>los ojos</b> y se durmió.",
       "sentenceEn": "He closed his eyes and fell asleep."
@@ -37,8 +37,8 @@
       "sentenceEn": "The dog has a cold nose."
     },
     {
-      "front": "las orejas",
-      "back": "ears",
+      "front": "la oreja",
+      "back": "ear",
       "tags": ["body-parts"],
       "sentence": "El conejo tiene <b>las orejas</b> largas.",
       "sentenceEn": "The rabbit has long ears."
@@ -51,8 +51,8 @@
       "sentenceEn": "He wore a scarf around his neck."
     },
     {
-      "front": "los hombros",
-      "back": "shoulders",
+      "front": "el hombro",
+      "back": "shoulder",
       "tags": ["body-parts"],
       "sentence": "Se encogió de <b>hombros</b> sin saber qué decir.",
       "sentenceEn": "He shrugged his shoulders, not knowing what to say."
@@ -72,22 +72,22 @@
       "sentenceEn": "She turned her back and left."
     },
     {
-      "front": "los brazos",
-      "back": "arms",
+      "front": "el brazo",
+      "back": "arm",
       "tags": ["body-parts"],
       "sentence": "Cruzó <b>los brazos</b> y esperó.",
       "sentenceEn": "He crossed his arms and waited."
     },
     {
-      "front": "las manos",
-      "back": "hands",
+      "front": "la mano",
+      "back": "hand",
       "tags": ["body-parts"],
       "sentence": "Se lavó <b>las manos</b> antes de comer.",
       "sentenceEn": "She washed her hands before eating."
     },
     {
-      "front": "los dedos",
-      "back": "fingers",
+      "front": "el dedo",
+      "back": "finger",
       "tags": ["body-parts"],
       "sentence": "Contó con <b>los dedos</b> hasta diez.",
       "sentenceEn": "He counted on his fingers to ten."
@@ -101,22 +101,22 @@
       "sentenceEn": "The child lay face down on his belly."
     },
     {
-      "front": "las piernas",
-      "back": "legs",
+      "front": "la pierna",
+      "back": "leg",
       "tags": ["body-parts"],
       "sentence": "Después de correr, le dolían <b>las piernas</b>.",
       "sentenceEn": "After running, his legs hurt."
     },
     {
-      "front": "las rodillas",
-      "back": "knees",
+      "front": "la rodilla",
+      "back": "knee",
       "tags": ["body-parts"],
       "sentence": "Se arrodilló sobre <b>las rodillas</b>.",
       "sentenceEn": "He knelt down on his knees."
     },
     {
-      "front": "los pies",
-      "back": "feet",
+      "front": "el pie",
+      "back": "foot",
       "tags": ["body-parts"],
       "sentence": "Caminó descalzo, sin nada en <b>los pies</b>.",
       "sentenceEn": "He walked barefoot, with nothing on his feet."
@@ -124,7 +124,7 @@
     {
       "front": "el corazón",
       "back": "heart",
-      "tags": ["body-parts"],
+      "tags": ["internal-organs"],
       "sentence": "Su <b>corazón</b> latía con fuerza.",
       "sentenceEn": "His heart was beating hard."
     },
@@ -136,8 +136,8 @@
       "sentenceEn": "The sun burned his skin."
     },
     {
-      "front": "los huesos",
-      "back": "bones",
+      "front": "el hueso",
+      "back": "bone",
       "tags": ["body-parts"],
       "sentence": "El frío le calaba hasta <b>los huesos</b>.",
       "sentenceEn": "The cold chilled him to the bone."
@@ -150,22 +150,15 @@
       "sentenceEn": "She kissed him on the forehead tenderly."
     },
     {
-      "front": "las cejas",
-      "back": "eyebrows",
-      "tags": ["body-parts"],
-      "sentence": "Levantó <b>las cejas</b> con sorpresa.",
-      "sentenceEn": "He raised his eyebrows in surprise."
-    },
-    {
-      "front": "las pestañas",
-      "back": "eyelashes",
+      "front": "la pestaña",
+      "back": "eyelash",
       "tags": ["body-parts"],
       "sentence": "Tenía <b>las pestañas</b> largas y oscuras.",
       "sentenceEn": "She had long, dark eyelashes."
     },
     {
-      "front": "las mejillas",
-      "back": "cheeks",
+      "front": "la mejilla",
+      "back": "cheek",
       "tags": ["body-parts"],
       "sentence": "Se le sonrojaron <b>las mejillas</b>.",
       "sentenceEn": "Her cheeks blushed."
@@ -186,15 +179,15 @@
       "sentenceEn": "The child stuck out his tongue playfully."
     },
     {
-      "front": "los dientes",
-      "back": "teeth",
+      "front": "el diente",
+      "back": "tooth",
       "tags": ["body-parts"],
       "sentence": "Mostró <b>los dientes</b> en una sonrisa amplia.",
       "sentenceEn": "He showed his teeth in a wide smile."
     },
     {
-      "front": "los labios",
-      "back": "lips",
+      "front": "el labio",
+      "back": "lip",
       "tags": ["body-parts"],
       "sentence": "Se mordió <b>los labios</b> nerviosa.",
       "sentenceEn": "She bit her lips nervously."
@@ -236,8 +229,8 @@
       "sentenceEn": "He raised his thumb in approval."
     },
     {
-      "front": "las uñas",
-      "back": "nails",
+      "front": "la uña",
+      "back": "nail",
       "tags": ["body-parts"],
       "sentence": "Se pintó <b>las uñas</b> de rojo.",
       "sentenceEn": "She painted her nails red."
@@ -257,8 +250,8 @@
       "sentenceEn": "His heel hurt after walking so much."
     },
     {
-      "front": "los dedos del pie",
-      "back": "toes",
+      "front": "el dedo del pie",
+      "back": "toe",
       "tags": ["body-parts"],
       "sentence": "Se puso de puntillas sobre <b>los dedos del pie</b>.",
       "sentenceEn": "She stood on tiptoe on her toes."
@@ -280,30 +273,173 @@
     {
       "front": "el hígado",
       "back": "liver",
-      "tags": ["body-parts"],
+      "tags": ["internal-organs"],
       "sentence": "El alcohol daña <b>el hígado</b>.",
       "sentenceEn": "Alcohol damages the liver."
     },
     {
-      "front": "los pulmones",
-      "back": "lungs",
-      "tags": ["body-parts"],
+      "front": "el pulmón",
+      "back": "lung",
+      "tags": ["internal-organs"],
       "sentence": "Respiró hondo y llenó <b>los pulmones</b> de aire.",
       "sentenceEn": "He breathed deeply and filled his lungs with air."
     },
     {
       "front": "el estómago",
       "back": "stomach",
-      "tags": ["body-parts"],
+      "tags": ["internal-organs"],
       "sentence": "Tenía <b>el estómago</b> vacío.",
       "sentenceEn": "His stomach was empty."
     },
     {
       "front": "el cerebro",
       "back": "brain",
-      "tags": ["body-parts"],
+      "tags": ["internal-organs"],
       "sentence": "<b>El cerebro</b> controla todo el cuerpo.",
       "sentenceEn": "The brain controls the entire body."
+    },
+    {
+      "front": "el riñón",
+      "back": "kidney",
+      "tags": ["internal-organs"],
+      "sentence": "<b>Los riñones</b> filtran la sangre.",
+      "sentenceEn": "The kidneys filter the blood."
+    },
+    {
+      "front": "el páncreas",
+      "back": "pancreas",
+      "tags": ["internal-organs"],
+      "sentence": "<b>El páncreas</b> produce insulina.",
+      "sentenceEn": "The pancreas produces insulin."
+    },
+    {
+      "front": "el bazo",
+      "back": "spleen",
+      "tags": ["internal-organs"],
+      "sentence": "<b>El bazo</b> forma parte del sistema inmunológico.",
+      "sentenceEn": "The spleen is part of the immune system."
+    },
+    {
+      "front": "la vesícula biliar",
+      "back": "gallbladder",
+      "tags": ["internal-organs"],
+      "sentence": "Le extirparon <b>la vesícula biliar</b>.",
+      "sentenceEn": "They removed his gallbladder."
+    },
+    {
+      "front": "el intestino",
+      "back": "intestine",
+      "tags": ["internal-organs"],
+      "sentence": "<b>Los intestinos</b> absorben los nutrientes.",
+      "sentenceEn": "The intestines absorb nutrients."
+    },
+    {
+      "front": "la vejiga",
+      "back": "bladder",
+      "tags": ["internal-organs"],
+      "sentence": "Sentía presión en <b>la vejiga</b>.",
+      "sentenceEn": "He felt pressure in his bladder."
+    },
+    {
+      "front": "el esófago",
+      "back": "esophagus",
+      "tags": ["internal-organs"],
+      "sentence": "La comida pasa por <b>el esófago</b>.",
+      "sentenceEn": "Food passes through the esophagus."
+    },
+    {
+      "front": "la tráquea",
+      "back": "trachea",
+      "tags": ["internal-organs"],
+      "synonym": "windpipe",
+      "sentence": "El aire entra por <b>la tráquea</b>.",
+      "sentenceEn": "Air enters through the trachea."
+    },
+    {
+      "front": "el diafragma",
+      "back": "diaphragm",
+      "tags": ["internal-organs"],
+      "sentence": "<b>El diafragma</b> controla la respiración.",
+      "sentenceEn": "The diaphragm controls breathing."
+    },
+    {
+      "front": "la arteria",
+      "back": "artery",
+      "tags": ["internal-organs"],
+      "sentence": "<b>Las arterias</b> llevan sangre oxigenada.",
+      "sentenceEn": "The arteries carry oxygenated blood."
+    },
+    {
+      "front": "la vena",
+      "back": "vein",
+      "tags": ["internal-organs"],
+      "sentence": "<b>Las venas</b> devuelven la sangre al corazón.",
+      "sentenceEn": "The veins return blood to the heart."
+    },
+    {
+      "front": "la médula espinal",
+      "back": "spinal cord",
+      "tags": ["internal-organs"],
+      "sentence": "<b>La médula espinal</b> transmite señales nerviosas.",
+      "sentenceEn": "The spinal cord transmits nerve signals."
+    },
+    {
+      "front": "la tiroides",
+      "back": "thyroid",
+      "tags": ["internal-organs"],
+      "sentence": "<b>La tiroides</b> regula el metabolismo.",
+      "sentenceEn": "The thyroid regulates metabolism."
+    },
+    {
+      "front": "el útero",
+      "back": "uterus",
+      "tags": ["internal-organs"],
+      "synonym": "womb",
+      "sentence": "El bebé crece en <b>el útero</b>.",
+      "sentenceEn": "The baby grows in the uterus."
+    },
+    {
+      "front": "el nervio",
+      "back": "nerve",
+      "tags": ["internal-organs"],
+      "sentence": "<b>Los nervios</b> transmiten señales al cerebro.",
+      "sentenceEn": "The nerves transmit signals to the brain."
+    },
+    {
+      "front": "el linfático",
+      "back": "lymphatic",
+      "tags": ["internal-organs"],
+      "synonym": "el sistema linfático",
+      "sentence": "<b>Los linfáticos</b> drenan el exceso de líquido.",
+      "sentenceEn": "The lymphatics drain excess fluid."
+    },
+    {
+      "front": "el timo",
+      "back": "thymus",
+      "tags": ["internal-organs"],
+      "sentence": "<b>El timo</b> es importante para el sistema inmune.",
+      "sentenceEn": "The thymus is important for the immune system."
+    },
+    {
+      "front": "el duodeno",
+      "back": "duodenum",
+      "tags": ["internal-organs"],
+      "sentence": "<b>El duodeno</b> es la primera parte del intestino delgado.",
+      "sentenceEn": "The duodenum is the first part of the small intestine."
+    },
+    {
+      "front": "el yeyuno",
+      "back": "jejunum",
+      "tags": ["internal-organs"],
+      "sentence": "<b>El yeyuno</b> absorbe la mayoría de los nutrientes.",
+      "sentenceEn": "The jejunum absorbs most of the nutrients."
+    },
+    {
+      "front": "la próstata",
+      "back": "prostate",
+      "tags": ["internal-organs"],
+      "sentence": "<b>La próstata</b> rodea la uretra.",
+      "sentenceEn": "The prostate surrounds the urethra."
     },
     {
       "front": "la sangre",
@@ -313,15 +449,15 @@
       "sentenceEn": "Blood flows through the veins."
     },
     {
-      "front": "los músculos",
-      "back": "muscles",
+      "front": "el músculo",
+      "back": "muscle",
       "tags": ["body-parts"],
       "sentence": "Fortaleció <b>los músculos</b> con ejercicio.",
       "sentenceEn": "He strengthened his muscles with exercise."
     },
     {
-      "front": "las costillas",
-      "back": "ribs",
+      "front": "la costilla",
+      "back": "rib",
       "tags": ["body-parts"],
       "sentence": "Se rompió dos <b>costillas</b> en el accidente.",
       "sentenceEn": "He broke two ribs in the accident."
@@ -368,13 +504,6 @@
       "tags": ["body-parts"],
       "sentence": "Le dio un calambre en <b>la pantorrilla</b>.",
       "sentenceEn": "He got a cramp in his calf."
-    },
-    {
-      "front": "el hombro",
-      "back": "shoulder",
-      "tags": ["body-parts"],
-      "sentence": "Le puso la mano en <b>el hombro</b>.",
-      "sentenceEn": "He put his hand on her shoulder."
     },
     {
       "front": "la palma",
