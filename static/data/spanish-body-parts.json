@@ -1,0 +1,422 @@
+{
+  "cards": [
+    {
+      "front": "la cabeza",
+      "back": "head",
+      "tags": ["body-parts"],
+      "sentence": "Me duele <b>la cabeza</b> después de trabajar.",
+      "sentenceEn": "My head hurts after working."
+    },
+    {
+      "front": "el rostro",
+      "back": "face",
+      "tags": ["body-parts"],
+      "synonym": "la cara",
+      "sentence": "Tenía una sonrisa en <b>el rostro</b>.",
+      "sentenceEn": "She had a smile on her face."
+    },
+    {
+      "front": "los ojos",
+      "back": "eyes",
+      "tags": ["body-parts"],
+      "sentence": "Cerró <b>los ojos</b> y se durmió.",
+      "sentenceEn": "He closed his eyes and fell asleep."
+    },
+    {
+      "front": "la boca",
+      "back": "mouth",
+      "tags": ["body-parts"],
+      "sentence": "Abrió <b>la boca</b> para hablar.",
+      "sentenceEn": "She opened her mouth to speak."
+    },
+    {
+      "front": "la nariz",
+      "back": "nose",
+      "tags": ["body-parts"],
+      "sentence": "El perro tiene <b>la nariz</b> fría.",
+      "sentenceEn": "The dog has a cold nose."
+    },
+    {
+      "front": "las orejas",
+      "back": "ears",
+      "tags": ["body-parts"],
+      "sentence": "El conejo tiene <b>las orejas</b> largas.",
+      "sentenceEn": "The rabbit has long ears."
+    },
+    {
+      "front": "el cuello",
+      "back": "neck",
+      "tags": ["body-parts"],
+      "sentence": "Llevaba un pañuelo alrededor del <b>cuello</b>.",
+      "sentenceEn": "He wore a scarf around his neck."
+    },
+    {
+      "front": "los hombros",
+      "back": "shoulders",
+      "tags": ["body-parts"],
+      "sentence": "Se encogió de <b>hombros</b> sin saber qué decir.",
+      "sentenceEn": "He shrugged his shoulders, not knowing what to say."
+    },
+    {
+      "front": "el pecho",
+      "back": "chest",
+      "tags": ["body-parts"],
+      "sentence": "Sintió un dolor en <b>el pecho</b>.",
+      "sentenceEn": "He felt a pain in his chest."
+    },
+    {
+      "front": "la espalda",
+      "back": "back",
+      "tags": ["body-parts"],
+      "sentence": "Le dio <b>la espalda</b> y se fue.",
+      "sentenceEn": "She turned her back and left."
+    },
+    {
+      "front": "los brazos",
+      "back": "arms",
+      "tags": ["body-parts"],
+      "sentence": "Cruzó <b>los brazos</b> y esperó.",
+      "sentenceEn": "He crossed his arms and waited."
+    },
+    {
+      "front": "las manos",
+      "back": "hands",
+      "tags": ["body-parts"],
+      "sentence": "Se lavó <b>las manos</b> antes de comer.",
+      "sentenceEn": "She washed her hands before eating."
+    },
+    {
+      "front": "los dedos",
+      "back": "fingers",
+      "tags": ["body-parts"],
+      "sentence": "Contó con <b>los dedos</b> hasta diez.",
+      "sentenceEn": "He counted on his fingers to ten."
+    },
+    {
+      "front": "el vientre",
+      "back": "belly",
+      "tags": ["body-parts"],
+      "synonym": "la barriga",
+      "sentence": "El niño se acostó boca abajo sobre <b>el vientre</b>.",
+      "sentenceEn": "The child lay face down on his belly."
+    },
+    {
+      "front": "las piernas",
+      "back": "legs",
+      "tags": ["body-parts"],
+      "sentence": "Después de correr, le dolían <b>las piernas</b>.",
+      "sentenceEn": "After running, his legs hurt."
+    },
+    {
+      "front": "las rodillas",
+      "back": "knees",
+      "tags": ["body-parts"],
+      "sentence": "Se arrodilló sobre <b>las rodillas</b>.",
+      "sentenceEn": "He knelt down on his knees."
+    },
+    {
+      "front": "los pies",
+      "back": "feet",
+      "tags": ["body-parts"],
+      "sentence": "Caminó descalzo, sin nada en <b>los pies</b>.",
+      "sentenceEn": "He walked barefoot, with nothing on his feet."
+    },
+    {
+      "front": "el corazón",
+      "back": "heart",
+      "tags": ["body-parts"],
+      "sentence": "Su <b>corazón</b> latía con fuerza.",
+      "sentenceEn": "His heart was beating hard."
+    },
+    {
+      "front": "la piel",
+      "back": "skin",
+      "tags": ["body-parts"],
+      "sentence": "El sol le quemó <b>la piel</b>.",
+      "sentenceEn": "The sun burned his skin."
+    },
+    {
+      "front": "los huesos",
+      "back": "bones",
+      "tags": ["body-parts"],
+      "sentence": "El frío le calaba hasta <b>los huesos</b>.",
+      "sentenceEn": "The cold chilled him to the bone."
+    },
+    {
+      "front": "la frente",
+      "back": "forehead",
+      "tags": ["body-parts"],
+      "sentence": "Le besó en <b>la frente</b> con ternura.",
+      "sentenceEn": "She kissed him on the forehead tenderly."
+    },
+    {
+      "front": "las cejas",
+      "back": "eyebrows",
+      "tags": ["body-parts"],
+      "sentence": "Levantó <b>las cejas</b> con sorpresa.",
+      "sentenceEn": "He raised his eyebrows in surprise."
+    },
+    {
+      "front": "las pestañas",
+      "back": "eyelashes",
+      "tags": ["body-parts"],
+      "sentence": "Tenía <b>las pestañas</b> largas y oscuras.",
+      "sentenceEn": "She had long, dark eyelashes."
+    },
+    {
+      "front": "las mejillas",
+      "back": "cheeks",
+      "tags": ["body-parts"],
+      "sentence": "Se le sonrojaron <b>las mejillas</b>.",
+      "sentenceEn": "Her cheeks blushed."
+    },
+    {
+      "front": "la barbilla",
+      "back": "chin",
+      "tags": ["body-parts"],
+      "synonym": "el mentón",
+      "sentence": "Apoyó <b>la barbilla</b> en la mano.",
+      "sentenceEn": "He rested his chin on his hand."
+    },
+    {
+      "front": "la lengua",
+      "back": "tongue",
+      "tags": ["body-parts"],
+      "sentence": "El niño sacó <b>la lengua</b> jugando.",
+      "sentenceEn": "The child stuck out his tongue playfully."
+    },
+    {
+      "front": "los dientes",
+      "back": "teeth",
+      "tags": ["body-parts"],
+      "sentence": "Mostró <b>los dientes</b> en una sonrisa amplia.",
+      "sentenceEn": "He showed his teeth in a wide smile."
+    },
+    {
+      "front": "los labios",
+      "back": "lips",
+      "tags": ["body-parts"],
+      "sentence": "Se mordió <b>los labios</b> nerviosa.",
+      "sentenceEn": "She bit her lips nervously."
+    },
+    {
+      "front": "el pelo",
+      "back": "hair",
+      "tags": ["body-parts"],
+      "synonym": "el cabello",
+      "sentence": "El viento le revolvía <b>el pelo</b>.",
+      "sentenceEn": "The wind tousled her hair."
+    },
+    {
+      "front": "la garganta",
+      "back": "throat",
+      "tags": ["body-parts"],
+      "sentence": "Sintió un nudo en <b>la garganta</b>.",
+      "sentenceEn": "He felt a lump in his throat."
+    },
+    {
+      "front": "el codo",
+      "back": "elbow",
+      "tags": ["body-parts"],
+      "sentence": "Se apoyó en <b>el codo</b> para levantarse.",
+      "sentenceEn": "He leaned on his elbow to get up."
+    },
+    {
+      "front": "la muñeca",
+      "back": "wrist",
+      "tags": ["body-parts"],
+      "sentence": "Llevaba un reloj en <b>la muñeca</b>.",
+      "sentenceEn": "He wore a watch on his wrist."
+    },
+    {
+      "front": "el pulgar",
+      "back": "thumb",
+      "tags": ["body-parts"],
+      "sentence": "Levantó <b>el pulgar</b> en señal de aprobación.",
+      "sentenceEn": "He raised his thumb in approval."
+    },
+    {
+      "front": "las uñas",
+      "back": "nails",
+      "tags": ["body-parts"],
+      "sentence": "Se pintó <b>las uñas</b> de rojo.",
+      "sentenceEn": "She painted her nails red."
+    },
+    {
+      "front": "el tobillo",
+      "back": "ankle",
+      "tags": ["body-parts"],
+      "sentence": "Se torció <b>el tobillo</b> al correr.",
+      "sentenceEn": "She twisted her ankle while running."
+    },
+    {
+      "front": "el talón",
+      "back": "heel",
+      "tags": ["body-parts"],
+      "sentence": "Le dolía <b>el talón</b> después de caminar tanto.",
+      "sentenceEn": "His heel hurt after walking so much."
+    },
+    {
+      "front": "los dedos del pie",
+      "back": "toes",
+      "tags": ["body-parts"],
+      "sentence": "Se puso de puntillas sobre <b>los dedos del pie</b>.",
+      "sentenceEn": "She stood on tiptoe on her toes."
+    },
+    {
+      "front": "la cadera",
+      "back": "hip",
+      "tags": ["body-parts"],
+      "sentence": "Se fracturó <b>la cadera</b> en la caída.",
+      "sentenceEn": "She fractured her hip in the fall."
+    },
+    {
+      "front": "la cintura",
+      "back": "waist",
+      "tags": ["body-parts"],
+      "sentence": "Le rodeó <b>la cintura</b> con los brazos.",
+      "sentenceEn": "He wrapped his arms around her waist."
+    },
+    {
+      "front": "el hígado",
+      "back": "liver",
+      "tags": ["body-parts"],
+      "sentence": "El alcohol daña <b>el hígado</b>.",
+      "sentenceEn": "Alcohol damages the liver."
+    },
+    {
+      "front": "los pulmones",
+      "back": "lungs",
+      "tags": ["body-parts"],
+      "sentence": "Respiró hondo y llenó <b>los pulmones</b> de aire.",
+      "sentenceEn": "He breathed deeply and filled his lungs with air."
+    },
+    {
+      "front": "el estómago",
+      "back": "stomach",
+      "tags": ["body-parts"],
+      "sentence": "Tenía <b>el estómago</b> vacío.",
+      "sentenceEn": "His stomach was empty."
+    },
+    {
+      "front": "el cerebro",
+      "back": "brain",
+      "tags": ["body-parts"],
+      "sentence": "<b>El cerebro</b> controla todo el cuerpo.",
+      "sentenceEn": "The brain controls the entire body."
+    },
+    {
+      "front": "la sangre",
+      "back": "blood",
+      "tags": ["body-parts"],
+      "sentence": "<b>La sangre</b> fluye por las venas.",
+      "sentenceEn": "Blood flows through the veins."
+    },
+    {
+      "front": "los músculos",
+      "back": "muscles",
+      "tags": ["body-parts"],
+      "sentence": "Fortaleció <b>los músculos</b> con ejercicio.",
+      "sentenceEn": "He strengthened his muscles with exercise."
+    },
+    {
+      "front": "las costillas",
+      "back": "ribs",
+      "tags": ["body-parts"],
+      "sentence": "Se rompió dos <b>costillas</b> en el accidente.",
+      "sentenceEn": "He broke two ribs in the accident."
+    },
+    {
+      "front": "la columna",
+      "back": "spine",
+      "tags": ["body-parts"],
+      "synonym": "la columna vertebral",
+      "sentence": "Mantuvo <b>la columna</b> recta al sentarse.",
+      "sentenceEn": "He kept his spine straight while sitting."
+    },
+    {
+      "front": "el ombligo",
+      "back": "belly button",
+      "tags": ["body-parts"],
+      "sentence": "El bebé tenía <b>el ombligo</b> recién curado.",
+      "sentenceEn": "The baby's belly button had just healed."
+    },
+    {
+      "front": "la mandíbula",
+      "back": "jaw",
+      "tags": ["body-parts"],
+      "sentence": "Apretó <b>la mandíbula</b> con rabia.",
+      "sentenceEn": "He clenched his jaw in anger."
+    },
+    {
+      "front": "la nuca",
+      "back": "nape",
+      "tags": ["body-parts"],
+      "sentence": "Sintió un escalofrío en <b>la nuca</b>.",
+      "sentenceEn": "He felt a chill on the nape of his neck."
+    },
+    {
+      "front": "el muslo",
+      "back": "thigh",
+      "tags": ["body-parts"],
+      "sentence": "Se sentó con las manos sobre <b>el muslo</b>.",
+      "sentenceEn": "He sat with his hands on his thigh."
+    },
+    {
+      "front": "la pantorrilla",
+      "back": "calf",
+      "tags": ["body-parts"],
+      "sentence": "Le dio un calambre en <b>la pantorrilla</b>.",
+      "sentenceEn": "He got a cramp in his calf."
+    },
+    {
+      "front": "el hombro",
+      "back": "shoulder",
+      "tags": ["body-parts"],
+      "sentence": "Le puso la mano en <b>el hombro</b>.",
+      "sentenceEn": "He put his hand on her shoulder."
+    },
+    {
+      "front": "la palma",
+      "back": "palm",
+      "tags": ["body-parts"],
+      "sentence": "Tenía sudor en <b>la palma</b> de la mano.",
+      "sentenceEn": "He had sweat on the palm of his hand."
+    },
+    {
+      "front": "el puño",
+      "back": "fist",
+      "tags": ["body-parts"],
+      "sentence": "Cerró <b>el puño</b> con fuerza.",
+      "sentenceEn": "He clenched his fist tightly."
+    },
+    {
+      "front": "el párpado",
+      "back": "eyelid",
+      "tags": ["body-parts"],
+      "sentence": "Le temblaba <b>el párpado</b> por el cansancio.",
+      "sentenceEn": "His eyelid twitched from tiredness."
+    },
+    {
+      "front": "la ceja",
+      "back": "eyebrow",
+      "tags": ["body-parts"],
+      "sentence": "Arqueó <b>la ceja</b> con incredulidad.",
+      "sentenceEn": "She arched her eyebrow in disbelief."
+    },
+    {
+      "front": "el cuero cabelludo",
+      "back": "scalp",
+      "tags": ["body-parts"],
+      "sentence": "Le picaba <b>el cuero cabelludo</b>.",
+      "sentenceEn": "His scalp was itchy."
+    },
+    {
+      "front": "la sien",
+      "back": "temple",
+      "tags": ["body-parts"],
+      "sentence": "Se frotó <b>la sien</b> con los dedos.",
+      "sentenceEn": "He rubbed his temple with his fingers."
+    }
+  ]
+}
