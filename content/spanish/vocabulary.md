@@ -13,6 +13,6 @@ scripts = ["js/flashcard.js"]
 
 Click on a card to flip it. Use the navigation buttons to move between cards.
 
-<div class="flashcard-container" data-flashcard-src="/data/spanish-body-parts.json"></div>
+<div class="flashcard-container" data-flashcard-src="/data/spanish-vocabulary.json"></div>
 
 <script src="/js/flashcard.js"></script>

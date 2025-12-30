@@ -573,6 +573,280 @@
       "tags": ["body-parts"],
       "sentence": "Se lesionó <b>el tendón</b> jugando al fútbol.",
       "sentenceEn": "He injured his tendon playing soccer."
+    },
+    {
+      "front": "encima de",
+      "back": "on top of / above",
+      "tags": ["prepositions-of-place"],
+      "sentence": "El libro está <b>encima de</b> la mesa.",
+      "sentenceEn": "The book is on top of the table."
+    },
+    {
+      "front": "debajo de",
+      "back": "under / below",
+      "tags": ["prepositions-of-place"],
+      "sentence": "El gato duerme <b>debajo de</b> la cama.",
+      "sentenceEn": "The cat sleeps under the bed."
+    },
+    {
+      "front": "sobre",
+      "back": "on / over",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Dejó las llaves <b>sobre</b> la mesa.",
+      "sentenceEn": "He left the keys on the table."
+    },
+    {
+      "front": "bajo",
+      "back": "under / beneath",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Se refugiaron <b>bajo</b> el puente.",
+      "sentenceEn": "They took shelter under the bridge."
+    },
+    {
+      "front": "delante de",
+      "back": "in front of",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Hay un coche aparcado <b>delante de</b> la casa.",
+      "sentenceEn": "There is a car parked in front of the house."
+    },
+    {
+      "front": "detrás de",
+      "back": "behind",
+      "tags": ["prepositions-of-place"],
+      "sentence": "El jardín está <b>detrás de</b> la casa.",
+      "sentenceEn": "The garden is behind the house."
+    },
+    {
+      "front": "al lado de",
+      "back": "next to / beside",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Se sentó <b>al lado de</b> su amigo.",
+      "sentenceEn": "He sat next to his friend."
+    },
+    {
+      "front": "junto a",
+      "back": "next to / alongside",
+      "tags": ["prepositions-of-place"],
+      "sentence": "La farmacia está <b>junto a</b> la panadería.",
+      "sentenceEn": "The pharmacy is next to the bakery."
+    },
+    {
+      "front": "cerca de",
+      "back": "near / close to",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Vivo <b>cerca de</b> la estación.",
+      "sentenceEn": "I live near the station."
+    },
+    {
+      "front": "lejos de",
+      "back": "far from",
+      "tags": ["prepositions-of-place"],
+      "sentence": "El aeropuerto está <b>lejos de</b> la ciudad.",
+      "sentenceEn": "The airport is far from the city."
+    },
+    {
+      "front": "dentro de",
+      "back": "inside",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Las llaves están <b>dentro de</b> la caja.",
+      "sentenceEn": "The keys are inside the box."
+    },
+    {
+      "front": "fuera de",
+      "back": "outside",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Los niños juegan <b>fuera de</b> la casa.",
+      "sentenceEn": "The children play outside the house."
+    },
+    {
+      "front": "entre",
+      "back": "between / among",
+      "tags": ["prepositions-of-place"],
+      "sentence": "La tienda está <b>entre</b> el banco y la cafetería.",
+      "sentenceEn": "The store is between the bank and the café."
+    },
+    {
+      "front": "alrededor de",
+      "back": "around",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Hay árboles <b>alrededor de</b> la plaza.",
+      "sentenceEn": "There are trees around the plaza."
+    },
+    {
+      "front": "enfrente de",
+      "back": "opposite / across from",
+      "tags": ["prepositions-of-place"],
+      "sentence": "El cine está <b>enfrente de</b> la biblioteca.",
+      "sentenceEn": "The cinema is across from the library."
+    },
+    {
+      "front": "frente a",
+      "back": "facing / in front of",
+      "tags": ["prepositions-of-place"],
+      "sentence": "El hotel está <b>frente a</b> la playa.",
+      "sentenceEn": "The hotel is facing the beach."
+    },
+    {
+      "front": "a la derecha de",
+      "back": "to the right of",
+      "tags": ["prepositions-of-place"],
+      "sentence": "El baño está <b>a la derecha de</b> la cocina.",
+      "sentenceEn": "The bathroom is to the right of the kitchen."
+    },
+    {
+      "front": "a la izquierda de",
+      "back": "to the left of",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Mi oficina está <b>a la izquierda de</b> la entrada.",
+      "sentenceEn": "My office is to the left of the entrance."
+    },
+    {
+      "front": "en medio de",
+      "back": "in the middle of",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Hay una fuente <b>en medio de</b> la plaza.",
+      "sentenceEn": "There is a fountain in the middle of the plaza."
+    },
+    {
+      "front": "al fondo de",
+      "back": "at the back of",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Los servicios están <b>al fondo de</b> la tienda.",
+      "sentenceEn": "The restrooms are at the back of the store."
+    },
+    {
+      "front": "en la esquina de",
+      "back": "at the corner of",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Nos vemos <b>en la esquina de</b> la calle.",
+      "sentenceEn": "We'll meet at the corner of the street."
+    },
+    {
+      "front": "a lo largo de",
+      "back": "along",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Caminamos <b>a lo largo de</b> la playa.",
+      "sentenceEn": "We walked along the beach."
+    },
+    {
+      "front": "a través de",
+      "back": "through / across",
+      "tags": ["prepositions-of-place"],
+      "sentence": "La luz entraba <b>a través de</b> la ventana.",
+      "sentenceEn": "The light came in through the window."
+    },
+    {
+      "front": "más allá de",
+      "back": "beyond",
+      "tags": ["prepositions-of-place"],
+      "sentence": "El pueblo está <b>más allá de</b> las montañas.",
+      "sentenceEn": "The village is beyond the mountains."
+    },
+    {
+      "front": "hacia",
+      "back": "toward",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Caminó <b>hacia</b> la puerta.",
+      "sentenceEn": "He walked toward the door."
+    },
+    {
+      "front": "en",
+      "back": "in / at / on",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Estoy <b>en</b> casa.",
+      "sentenceEn": "I'm at home."
+    },
+    {
+      "front": "por",
+      "back": "through / along / around",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Paseamos <b>por</b> el parque.",
+      "sentenceEn": "We strolled through the park."
+    },
+    {
+      "front": "hasta",
+      "back": "up to / as far as",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Caminamos <b>hasta</b> el final de la calle.",
+      "sentenceEn": "We walked as far as the end of the street."
+    },
+    {
+      "front": "desde",
+      "back": "from",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Se ve el mar <b>desde</b> aquí.",
+      "sentenceEn": "You can see the sea from here."
+    },
+    {
+      "front": "contra",
+      "back": "against",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Apoyó la escalera <b>contra</b> la pared.",
+      "sentenceEn": "He leaned the ladder against the wall."
+    },
+    {
+      "front": "arriba",
+      "back": "above / upstairs",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Mi habitación está <b>arriba</b>.",
+      "sentenceEn": "My room is upstairs."
+    },
+    {
+      "front": "abajo",
+      "back": "below / downstairs",
+      "tags": ["prepositions-of-place"],
+      "sentence": "La cocina está <b>abajo</b>.",
+      "sentenceEn": "The kitchen is downstairs."
+    },
+    {
+      "front": "afuera",
+      "back": "outside",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Espérame <b>afuera</b>.",
+      "sentenceEn": "Wait for me outside."
+    },
+    {
+      "front": "adentro",
+      "back": "inside",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Vamos <b>adentro</b>, hace frío.",
+      "sentenceEn": "Let's go inside, it's cold."
+    },
+    {
+      "front": "aquí",
+      "back": "here",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Ven <b>aquí</b>.",
+      "sentenceEn": "Come here."
+    },
+    {
+      "front": "allí",
+      "back": "there",
+      "tags": ["prepositions-of-place"],
+      "synonym": "ahí",
+      "sentence": "Dejé el libro <b>allí</b>.",
+      "sentenceEn": "I left the book there."
+    },
+    {
+      "front": "en algún lugar",
+      "back": "somewhere",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Las llaves deben estar <b>en algún lugar</b>.",
+      "sentenceEn": "The keys must be somewhere."
+    },
+    {
+      "front": "en ningún lugar",
+      "back": "nowhere",
+      "tags": ["prepositions-of-place"],
+      "sentence": "No lo encontré <b>en ningún lugar</b>.",
+      "sentenceEn": "I couldn't find it anywhere."
+    },
+    {
+      "front": "en todas partes",
+      "back": "everywhere",
+      "tags": ["prepositions-of-place"],
+      "sentence": "Hay flores <b>en todas partes</b>.",
+      "sentenceEn": "There are flowers everywhere."
     }
   ]
 }
