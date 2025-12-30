@@ -33,6 +33,18 @@ class Flashcard {
     this.filterCards();
     this.render();
     this.bindEvents();
+    this.bindKeyboard();
+  }
+
+  bindKeyboard() {
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') this.next();
+      if (e.key === 'ArrowLeft') this.prev();
+      if (e.key === ' ') {
+        e.preventDefault();
+        this.flip();
+      }
+    });
   }
 
   extractTags() {
