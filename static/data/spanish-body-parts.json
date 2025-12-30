@@ -546,6 +546,35 @@
       "tags": ["body-parts"],
       "sentence": "Se frotó <b>la sien</b> con los dedos.",
       "sentenceEn": "He rubbed his temple with his fingers."
+    },
+    {
+      "front": "la axila",
+      "back": "armpit",
+      "tags": ["body-parts"],
+      "synonym": "el sobaco",
+      "sentence": "Se puso desodorante en <b>la axila</b>.",
+      "sentenceEn": "He put deodorant on his armpit."
+    },
+    {
+      "front": "la pupila",
+      "back": "pupil",
+      "tags": ["body-parts"],
+      "sentence": "<b>La pupila</b> se dilata en la oscuridad.",
+      "sentenceEn": "The pupil dilates in darkness."
+    },
+    {
+      "front": "el iris",
+      "back": "iris",
+      "tags": ["body-parts"],
+      "sentence": "Tenía <b>el iris</b> de color verde.",
+      "sentenceEn": "She had a green iris."
+    },
+    {
+      "front": "el tendón",
+      "back": "tendon",
+      "tags": ["body-parts"],
+      "sentence": "Se lesionó <b>el tendón</b> jugando al fútbol.",
+      "sentenceEn": "He injured his tendon playing soccer."
     }
   ]
 }
