@@ -351,7 +351,6 @@
       "front": "la tráquea",
       "back": "trachea",
       "tags": ["internal-organs"],
-      "synonym": "windpipe",
       "sentence": "El aire entra por <b>la tráquea</b>.",
       "sentenceEn": "Air enters through the trachea."
     },
@@ -394,7 +393,6 @@
       "front": "el útero",
       "back": "uterus",
       "tags": ["internal-organs"],
-      "synonym": "womb",
       "sentence": "El bebé crece en <b>el útero</b>.",
       "sentenceEn": "The baby grows in the uterus."
     },
