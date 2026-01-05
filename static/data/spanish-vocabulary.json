@@ -847,6 +847,151 @@
       "tags": ["prepositions-of-place"],
       "sentence": "Hay flores <b>en todas partes</b>.",
       "sentenceEn": "There are flowers everywhere."
+    },
+    {
+      "front": "la encía",
+      "back": "gum",
+      "tags": ["body-parts"],
+      "sentence": "Le sangraban <b>las encías</b> al cepillarse.",
+      "sentenceEn": "His gums bled when brushing."
+    },
+    {
+      "front": "rojo",
+      "back": "red",
+      "tags": ["colors"],
+      "sentence": "Llevaba un vestido <b>rojo</b>.",
+      "sentenceEn": "She wore a red dress."
+    },
+    {
+      "front": "azul",
+      "back": "blue",
+      "tags": ["colors"],
+      "sentence": "El cielo está <b>azul</b> hoy.",
+      "sentenceEn": "The sky is blue today."
+    },
+    {
+      "front": "verde",
+      "back": "green",
+      "tags": ["colors"],
+      "sentence": "La hierba es <b>verde</b>.",
+      "sentenceEn": "The grass is green."
+    },
+    {
+      "front": "amarillo",
+      "back": "yellow",
+      "tags": ["colors"],
+      "sentence": "El sol es <b>amarillo</b>.",
+      "sentenceEn": "The sun is yellow."
+    },
+    {
+      "front": "naranja",
+      "back": "orange",
+      "tags": ["colors"],
+      "synonym": "anaranjado",
+      "sentence": "Las hojas se vuelven <b>naranjas</b> en otoño.",
+      "sentenceEn": "The leaves turn orange in autumn."
+    },
+    {
+      "front": "morado",
+      "back": "purple",
+      "tags": ["colors"],
+      "synonym": "púrpura",
+      "sentence": "Las uvas son <b>moradas</b>.",
+      "sentenceEn": "The grapes are purple."
+    },
+    {
+      "front": "rosa",
+      "back": "pink",
+      "tags": ["colors"],
+      "synonym": "rosado",
+      "sentence": "Le regaló flores <b>rosas</b>.",
+      "sentenceEn": "He gave her pink flowers."
+    },
+    {
+      "front": "blanco",
+      "back": "white",
+      "tags": ["colors"],
+      "sentence": "La nieve es <b>blanca</b>.",
+      "sentenceEn": "The snow is white."
+    },
+    {
+      "front": "negro",
+      "back": "black",
+      "tags": ["colors"],
+      "sentence": "El gato es <b>negro</b>.",
+      "sentenceEn": "The cat is black."
+    },
+    {
+      "front": "gris",
+      "back": "gray",
+      "tags": ["colors"],
+      "sentence": "Las nubes están <b>grises</b>.",
+      "sentenceEn": "The clouds are gray."
+    },
+    {
+      "front": "marrón",
+      "back": "brown",
+      "tags": ["colors"],
+      "synonym": "café",
+      "sentence": "Tiene los ojos <b>marrones</b>.",
+      "sentenceEn": "She has brown eyes."
+    },
+    {
+      "front": "dorado",
+      "back": "gold / golden",
+      "tags": ["colors"],
+      "sentence": "Brillaba con un tono <b>dorado</b>.",
+      "sentenceEn": "It shone with a golden tone."
+    },
+    {
+      "front": "plateado",
+      "back": "silver",
+      "tags": ["colors"],
+      "sentence": "Llevaba un anillo <b>plateado</b>.",
+      "sentenceEn": "She wore a silver ring."
+    },
+    {
+      "front": "celeste",
+      "back": "sky blue / light blue",
+      "tags": ["colors"],
+      "synonym": "azul claro",
+      "sentence": "Pintaron la habitación de <b>celeste</b>.",
+      "sentenceEn": "They painted the room sky blue."
+    },
+    {
+      "front": "turquesa",
+      "back": "turquoise",
+      "tags": ["colors"],
+      "sentence": "El mar era de un color <b>turquesa</b>.",
+      "sentenceEn": "The sea was a turquoise color."
+    },
+    {
+      "front": "violeta",
+      "back": "violet",
+      "tags": ["colors"],
+      "sentence": "Las flores <b>violetas</b> son muy bonitas.",
+      "sentenceEn": "Violet flowers are very pretty."
+    },
+    {
+      "front": "beige",
+      "back": "beige",
+      "tags": ["colors"],
+      "sentence": "Las paredes son de color <b>beige</b>.",
+      "sentenceEn": "The walls are beige."
+    },
+    {
+      "front": "oscuro",
+      "back": "dark",
+      "tags": ["colors"],
+      "sentence": "Prefiere los colores <b>oscuros</b>.",
+      "sentenceEn": "He prefers dark colors."
+    },
+    {
+      "front": "claro",
+      "back": "light",
+      "tags": ["colors"],
+      "sentence": "Su pelo es castaño <b>claro</b>.",
+      "sentenceEn": "Her hair is light brown."
     }
   ]
 }
