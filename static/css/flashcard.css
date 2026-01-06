@@ -91,7 +91,6 @@
 .flashcard-nav {
   display: flex;
   gap: 1rem;
-  margin-top: 1rem;
 }
 
 .flashcard-nav button {
@@ -116,13 +115,12 @@
 }
 
 .flashcard-progress {
-  margin-top: 0.5rem;
   font-size: 0.875rem;
   color: var(--text);
 }
 
 .flashcard-controls {
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
 }
 
 .flashcard-controls button {
@@ -146,7 +144,7 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .tag-btn {
@@ -173,4 +171,32 @@
 .flashcard-prompt {
   color: var(--text);
   font-style: italic;
+}
+
+.flashcard-difficulties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.difficulty-btn {
+  padding: 0.375rem 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.difficulty-btn:hover {
+  background: var(--primary-color);
+  color: var(--bg);
+}
+
+.difficulty-btn.selected {
+  background: var(--primary-color);
+  color: var(--bg);
 }

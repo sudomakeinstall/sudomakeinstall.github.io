@@ -4,6 +4,7 @@
       "front": "la cabeza",
       "back": "head",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Me duele <b>la cabeza</b> después de trabajar.",
       "sentenceEn": "My head hurts after working."
     },
@@ -11,6 +12,7 @@
       "front": "el rostro",
       "back": "face",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "synonym": "la cara",
       "sentence": "Tenía una sonrisa en <b>el rostro</b>.",
       "sentenceEn": "She had a smile on her face."
@@ -19,6 +21,7 @@
       "front": "el ojo",
       "back": "eye",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Cerró <b>los ojos</b> y se durmió.",
       "sentenceEn": "He closed his eyes and fell asleep."
     },
@@ -26,6 +29,7 @@
       "front": "la boca",
       "back": "mouth",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Abrió <b>la boca</b> para hablar.",
       "sentenceEn": "She opened her mouth to speak."
     },
@@ -33,6 +37,7 @@
       "front": "la nariz",
       "back": "nose",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "El perro tiene <b>la nariz</b> fría.",
       "sentenceEn": "The dog has a cold nose."
     },
@@ -40,6 +45,7 @@
       "front": "la oreja",
       "back": "ear",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "El conejo tiene <b>las orejas</b> largas.",
       "sentenceEn": "The rabbit has long ears."
     },
@@ -47,6 +53,7 @@
       "front": "el cuello",
       "back": "neck",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Llevaba un pañuelo alrededor del <b>cuello</b>.",
       "sentenceEn": "He wore a scarf around his neck."
     },
@@ -54,6 +61,7 @@
       "front": "el hombro",
       "back": "shoulder",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Se encogió de <b>hombros</b> sin saber qué decir.",
       "sentenceEn": "He shrugged his shoulders, not knowing what to say."
     },
@@ -61,6 +69,7 @@
       "front": "el pecho",
       "back": "chest",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Sintió un dolor en <b>el pecho</b>.",
       "sentenceEn": "He felt a pain in his chest."
     },
@@ -68,6 +77,7 @@
       "front": "la espalda",
       "back": "back",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Le dio <b>la espalda</b> y se fue.",
       "sentenceEn": "She turned her back and left."
     },
@@ -75,6 +85,7 @@
       "front": "el brazo",
       "back": "arm",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Cruzó <b>los brazos</b> y esperó.",
       "sentenceEn": "He crossed his arms and waited."
     },
@@ -82,6 +93,7 @@
       "front": "la mano",
       "back": "hand",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Se lavó <b>las manos</b> antes de comer.",
       "sentenceEn": "She washed her hands before eating."
     },
@@ -89,6 +101,7 @@
       "front": "el dedo",
       "back": "finger",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Contó con <b>los dedos</b> hasta diez.",
       "sentenceEn": "He counted on his fingers to ten."
     },
@@ -96,6 +109,7 @@
       "front": "el vientre",
       "back": "belly",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "synonym": "la barriga",
       "sentence": "El niño se acostó boca abajo sobre <b>el vientre</b>.",
       "sentenceEn": "The child lay face down on his belly."
@@ -104,6 +118,7 @@
       "front": "la pierna",
       "back": "leg",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Después de correr, le dolían <b>las piernas</b>.",
       "sentenceEn": "After running, his legs hurt."
     },
@@ -111,6 +126,7 @@
       "front": "la rodilla",
       "back": "knee",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Se arrodilló sobre <b>las rodillas</b>.",
       "sentenceEn": "He knelt down on his knees."
     },
@@ -118,6 +134,7 @@
       "front": "el pie",
       "back": "foot",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Caminó descalzo, sin nada en <b>los pies</b>.",
       "sentenceEn": "He walked barefoot, with nothing on his feet."
     },
@@ -125,6 +142,7 @@
       "front": "el corazón",
       "back": "heart",
       "tags": ["internal-organs"],
+      "difficulty": "beginner",
       "sentence": "Su <b>corazón</b> latía con fuerza.",
       "sentenceEn": "His heart was beating hard."
     },
@@ -132,6 +150,7 @@
       "front": "la piel",
       "back": "skin",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "El sol le quemó <b>la piel</b>.",
       "sentenceEn": "The sun burned his skin."
     },
@@ -139,6 +158,7 @@
       "front": "el hueso",
       "back": "bone",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "El frío le calaba hasta <b>los huesos</b>.",
       "sentenceEn": "The cold chilled him to the bone."
     },
@@ -146,6 +166,7 @@
       "front": "la frente",
       "back": "forehead",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Le besó en <b>la frente</b> con ternura.",
       "sentenceEn": "She kissed him on the forehead tenderly."
     },
@@ -153,6 +174,7 @@
       "front": "la pestaña",
       "back": "eyelash",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Tenía <b>las pestañas</b> largas y oscuras.",
       "sentenceEn": "She had long, dark eyelashes."
     },
@@ -160,6 +182,7 @@
       "front": "la mejilla",
       "back": "cheek",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Se le sonrojaron <b>las mejillas</b>.",
       "sentenceEn": "Her cheeks blushed."
     },
@@ -167,6 +190,7 @@
       "front": "la barbilla",
       "back": "chin",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "synonym": "el mentón",
       "sentence": "Apoyó <b>la barbilla</b> en la mano.",
       "sentenceEn": "He rested his chin on his hand."
@@ -175,6 +199,7 @@
       "front": "la lengua",
       "back": "tongue",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "El niño sacó <b>la lengua</b> jugando.",
       "sentenceEn": "The child stuck out his tongue playfully."
     },
@@ -182,6 +207,7 @@
       "front": "el diente",
       "back": "tooth",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Mostró <b>los dientes</b> en una sonrisa amplia.",
       "sentenceEn": "He showed his teeth in a wide smile."
     },
@@ -189,6 +215,7 @@
       "front": "el labio",
       "back": "lip",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Se mordió <b>los labios</b> nerviosa.",
       "sentenceEn": "She bit her lips nervously."
     },
@@ -196,6 +223,7 @@
       "front": "el pelo",
       "back": "hair",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "synonym": "el cabello",
       "sentence": "El viento le revolvía <b>el pelo</b>.",
       "sentenceEn": "The wind tousled her hair."
@@ -204,6 +232,7 @@
       "front": "la garganta",
       "back": "throat",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Sintió un nudo en <b>la garganta</b>.",
       "sentenceEn": "He felt a lump in his throat."
     },
@@ -211,6 +240,7 @@
       "front": "el codo",
       "back": "elbow",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Se apoyó en <b>el codo</b> para levantarse.",
       "sentenceEn": "He leaned on his elbow to get up."
     },
@@ -218,6 +248,7 @@
       "front": "la muñeca",
       "back": "wrist",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Llevaba un reloj en <b>la muñeca</b>.",
       "sentenceEn": "He wore a watch on his wrist."
     },
@@ -225,6 +256,7 @@
       "front": "el pulgar",
       "back": "thumb",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Levantó <b>el pulgar</b> en señal de aprobación.",
       "sentenceEn": "He raised his thumb in approval."
     },
@@ -232,6 +264,7 @@
       "front": "la uña",
       "back": "nail",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Se pintó <b>las uñas</b> de rojo.",
       "sentenceEn": "She painted her nails red."
     },
@@ -239,6 +272,7 @@
       "front": "el tobillo",
       "back": "ankle",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Se torció <b>el tobillo</b> al correr.",
       "sentenceEn": "She twisted her ankle while running."
     },
@@ -246,6 +280,7 @@
       "front": "el talón",
       "back": "heel",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Le dolía <b>el talón</b> después de caminar tanto.",
       "sentenceEn": "His heel hurt after walking so much."
     },
@@ -253,6 +288,7 @@
       "front": "el dedo del pie",
       "back": "toe",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Se puso de puntillas sobre <b>los dedos del pie</b>.",
       "sentenceEn": "She stood on tiptoe on her toes."
     },
@@ -260,6 +296,7 @@
       "front": "la cadera",
       "back": "hip",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Se fracturó <b>la cadera</b> en la caída.",
       "sentenceEn": "She fractured her hip in the fall."
     },
@@ -267,6 +304,7 @@
       "front": "la cintura",
       "back": "waist",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Le rodeó <b>la cintura</b> con los brazos.",
       "sentenceEn": "He wrapped his arms around her waist."
     },
@@ -274,6 +312,7 @@
       "front": "el hígado",
       "back": "liver",
       "tags": ["internal-organs"],
+      "difficulty": "intermediate",
       "sentence": "El alcohol daña <b>el hígado</b>.",
       "sentenceEn": "Alcohol damages the liver."
     },
@@ -281,6 +320,7 @@
       "front": "el pulmón",
       "back": "lung",
       "tags": ["internal-organs"],
+      "difficulty": "intermediate",
       "sentence": "Respiró hondo y llenó <b>los pulmones</b> de aire.",
       "sentenceEn": "He breathed deeply and filled his lungs with air."
     },
@@ -288,6 +328,7 @@
       "front": "el estómago",
       "back": "stomach",
       "tags": ["internal-organs"],
+      "difficulty": "intermediate",
       "sentence": "Tenía <b>el estómago</b> vacío.",
       "sentenceEn": "His stomach was empty."
     },
@@ -295,6 +336,7 @@
       "front": "el cerebro",
       "back": "brain",
       "tags": ["internal-organs"],
+      "difficulty": "intermediate",
       "sentence": "<b>El cerebro</b> controla todo el cuerpo.",
       "sentenceEn": "The brain controls the entire body."
     },
@@ -302,6 +344,7 @@
       "front": "el riñón",
       "back": "kidney",
       "tags": ["internal-organs"],
+      "difficulty": "intermediate",
       "sentence": "<b>Los riñones</b> filtran la sangre.",
       "sentenceEn": "The kidneys filter the blood."
     },
@@ -309,6 +352,7 @@
       "front": "el páncreas",
       "back": "pancreas",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "<b>El páncreas</b> produce insulina.",
       "sentenceEn": "The pancreas produces insulin."
     },
@@ -316,6 +360,7 @@
       "front": "el bazo",
       "back": "spleen",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "<b>El bazo</b> forma parte del sistema inmunológico.",
       "sentenceEn": "The spleen is part of the immune system."
     },
@@ -323,6 +368,7 @@
       "front": "la vesícula biliar",
       "back": "gallbladder",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "Le extirparon <b>la vesícula biliar</b>.",
       "sentenceEn": "They removed his gallbladder."
     },
@@ -330,6 +376,7 @@
       "front": "el intestino",
       "back": "intestine",
       "tags": ["internal-organs"],
+      "difficulty": "intermediate",
       "sentence": "<b>Los intestinos</b> absorben los nutrientes.",
       "sentenceEn": "The intestines absorb nutrients."
     },
@@ -337,6 +384,7 @@
       "front": "la vejiga",
       "back": "bladder",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "Sentía presión en <b>la vejiga</b>.",
       "sentenceEn": "He felt pressure in his bladder."
     },
@@ -344,6 +392,7 @@
       "front": "el esófago",
       "back": "esophagus",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "La comida pasa por <b>el esófago</b>.",
       "sentenceEn": "Food passes through the esophagus."
     },
@@ -351,6 +400,7 @@
       "front": "la tráquea",
       "back": "trachea",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "El aire entra por <b>la tráquea</b>.",
       "sentenceEn": "Air enters through the trachea."
     },
@@ -358,6 +408,7 @@
       "front": "el diafragma",
       "back": "diaphragm",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "<b>El diafragma</b> controla la respiración.",
       "sentenceEn": "The diaphragm controls breathing."
     },
@@ -365,6 +416,7 @@
       "front": "la arteria",
       "back": "artery",
       "tags": ["internal-organs"],
+      "difficulty": "intermediate",
       "sentence": "<b>Las arterias</b> llevan sangre oxigenada.",
       "sentenceEn": "The arteries carry oxygenated blood."
     },
@@ -372,6 +424,7 @@
       "front": "la vena",
       "back": "vein",
       "tags": ["internal-organs"],
+      "difficulty": "intermediate",
       "sentence": "<b>Las venas</b> devuelven la sangre al corazón.",
       "sentenceEn": "The veins return blood to the heart."
     },
@@ -379,6 +432,7 @@
       "front": "la médula espinal",
       "back": "spinal cord",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "<b>La médula espinal</b> transmite señales nerviosas.",
       "sentenceEn": "The spinal cord transmits nerve signals."
     },
@@ -386,6 +440,7 @@
       "front": "la tiroides",
       "back": "thyroid",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "<b>La tiroides</b> regula el metabolismo.",
       "sentenceEn": "The thyroid regulates metabolism."
     },
@@ -393,6 +448,7 @@
       "front": "el útero",
       "back": "uterus",
       "tags": ["internal-organs"],
+      "difficulty": "intermediate",
       "sentence": "El bebé crece en <b>el útero</b>.",
       "sentenceEn": "The baby grows in the uterus."
     },
@@ -400,6 +456,7 @@
       "front": "el nervio",
       "back": "nerve",
       "tags": ["internal-organs"],
+      "difficulty": "intermediate",
       "sentence": "<b>Los nervios</b> transmiten señales al cerebro.",
       "sentenceEn": "The nerves transmit signals to the brain."
     },
@@ -407,6 +464,7 @@
       "front": "el linfático",
       "back": "lymphatic",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "synonym": "el sistema linfático",
       "sentence": "<b>Los linfáticos</b> drenan el exceso de líquido.",
       "sentenceEn": "The lymphatics drain excess fluid."
@@ -415,6 +473,7 @@
       "front": "el timo",
       "back": "thymus",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "<b>El timo</b> es importante para el sistema inmune.",
       "sentenceEn": "The thymus is important for the immune system."
     },
@@ -422,6 +481,7 @@
       "front": "el duodeno",
       "back": "duodenum",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "<b>El duodeno</b> es la primera parte del intestino delgado.",
       "sentenceEn": "The duodenum is the first part of the small intestine."
     },
@@ -429,6 +489,7 @@
       "front": "el yeyuno",
       "back": "jejunum",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "<b>El yeyuno</b> absorbe la mayoría de los nutrientes.",
       "sentenceEn": "The jejunum absorbs most of the nutrients."
     },
@@ -436,6 +497,7 @@
       "front": "la próstata",
       "back": "prostate",
       "tags": ["internal-organs"],
+      "difficulty": "advanced",
       "sentence": "<b>La próstata</b> rodea la uretra.",
       "sentenceEn": "The prostate surrounds the urethra."
     },
@@ -443,6 +505,7 @@
       "front": "la sangre",
       "back": "blood",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "<b>La sangre</b> fluye por las venas.",
       "sentenceEn": "Blood flows through the veins."
     },
@@ -450,6 +513,7 @@
       "front": "el músculo",
       "back": "muscle",
       "tags": ["body-parts"],
+      "difficulty": "beginner",
       "sentence": "Fortaleció <b>los músculos</b> con ejercicio.",
       "sentenceEn": "He strengthened his muscles with exercise."
     },
@@ -457,6 +521,7 @@
       "front": "la costilla",
       "back": "rib",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Se rompió dos <b>costillas</b> en el accidente.",
       "sentenceEn": "He broke two ribs in the accident."
     },
@@ -464,6 +529,7 @@
       "front": "la columna",
       "back": "spine",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "synonym": "la columna vertebral",
       "sentence": "Mantuvo <b>la columna</b> recta al sentarse.",
       "sentenceEn": "He kept his spine straight while sitting."
@@ -472,6 +538,7 @@
       "front": "el ombligo",
       "back": "belly button",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "El bebé tenía <b>el ombligo</b> recién curado.",
       "sentenceEn": "The baby's belly button had just healed."
     },
@@ -479,6 +546,7 @@
       "front": "la mandíbula",
       "back": "jaw",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Apretó <b>la mandíbula</b> con rabia.",
       "sentenceEn": "He clenched his jaw in anger."
     },
@@ -486,6 +554,7 @@
       "front": "la nuca",
       "back": "nape",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Sintió un escalofrío en <b>la nuca</b>.",
       "sentenceEn": "He felt a chill on the nape of his neck."
     },
@@ -493,6 +562,7 @@
       "front": "el muslo",
       "back": "thigh",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Se sentó con las manos sobre <b>el muslo</b>.",
       "sentenceEn": "He sat with his hands on his thigh."
     },
@@ -500,6 +570,7 @@
       "front": "la pantorrilla",
       "back": "calf",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Le dio un calambre en <b>la pantorrilla</b>.",
       "sentenceEn": "He got a cramp in his calf."
     },
@@ -507,6 +578,7 @@
       "front": "la palma",
       "back": "palm",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Tenía sudor en <b>la palma</b> de la mano.",
       "sentenceEn": "He had sweat on the palm of his hand."
     },
@@ -514,6 +586,7 @@
       "front": "el puño",
       "back": "fist",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Cerró <b>el puño</b> con fuerza.",
       "sentenceEn": "He clenched his fist tightly."
     },
@@ -521,6 +594,7 @@
       "front": "el párpado",
       "back": "eyelid",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Le temblaba <b>el párpado</b> por el cansancio.",
       "sentenceEn": "His eyelid twitched from tiredness."
     },
@@ -528,6 +602,7 @@
       "front": "la ceja",
       "back": "eyebrow",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Arqueó <b>la ceja</b> con incredulidad.",
       "sentenceEn": "She arched her eyebrow in disbelief."
     },
@@ -535,6 +610,7 @@
       "front": "el cuero cabelludo",
       "back": "scalp",
       "tags": ["body-parts"],
+      "difficulty": "advanced",
       "sentence": "Le picaba <b>el cuero cabelludo</b>.",
       "sentenceEn": "His scalp was itchy."
     },
@@ -542,6 +618,7 @@
       "front": "la sien",
       "back": "temple",
       "tags": ["body-parts"],
+      "difficulty": "advanced",
       "sentence": "Se frotó <b>la sien</b> con los dedos.",
       "sentenceEn": "He rubbed his temple with his fingers."
     },
@@ -549,6 +626,7 @@
       "front": "la axila",
       "back": "armpit",
       "tags": ["body-parts"],
+      "difficulty": "advanced",
       "synonym": "el sobaco",
       "sentence": "Se puso desodorante en <b>la axila</b>.",
       "sentenceEn": "He put deodorant on his armpit."
@@ -557,6 +635,7 @@
       "front": "la pupila",
       "back": "pupil",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "<b>La pupila</b> se dilata en la oscuridad.",
       "sentenceEn": "The pupil dilates in darkness."
     },
@@ -564,6 +643,7 @@
       "front": "el iris",
       "back": "iris",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Tenía <b>el iris</b> de color verde.",
       "sentenceEn": "She had a green iris."
     },
@@ -571,6 +651,7 @@
       "front": "el tendón",
       "back": "tendon",
       "tags": ["body-parts"],
+      "difficulty": "advanced",
       "sentence": "Se lesionó <b>el tendón</b> jugando al fútbol.",
       "sentenceEn": "He injured his tendon playing soccer."
     },
@@ -578,6 +659,7 @@
       "front": "encima de",
       "back": "on top of / above",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "El libro está <b>encima de</b> la mesa.",
       "sentenceEn": "The book is on top of the table."
     },
@@ -585,6 +667,7 @@
       "front": "debajo de",
       "back": "under / below",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "El gato duerme <b>debajo de</b> la cama.",
       "sentenceEn": "The cat sleeps under the bed."
     },
@@ -592,6 +675,7 @@
       "front": "sobre",
       "back": "on / over",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Dejó las llaves <b>sobre</b> la mesa.",
       "sentenceEn": "He left the keys on the table."
     },
@@ -599,6 +683,7 @@
       "front": "bajo",
       "back": "under / beneath",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Se refugiaron <b>bajo</b> el puente.",
       "sentenceEn": "They took shelter under the bridge."
     },
@@ -606,6 +691,7 @@
       "front": "delante de",
       "back": "in front of",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Hay un coche aparcado <b>delante de</b> la casa.",
       "sentenceEn": "There is a car parked in front of the house."
     },
@@ -613,6 +699,7 @@
       "front": "detrás de",
       "back": "behind",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "El jardín está <b>detrás de</b> la casa.",
       "sentenceEn": "The garden is behind the house."
     },
@@ -620,6 +707,7 @@
       "front": "al lado de",
       "back": "next to / beside",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Se sentó <b>al lado de</b> su amigo.",
       "sentenceEn": "He sat next to his friend."
     },
@@ -627,6 +715,7 @@
       "front": "junto a",
       "back": "next to / alongside",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "La farmacia está <b>junto a</b> la panadería.",
       "sentenceEn": "The pharmacy is next to the bakery."
     },
@@ -634,6 +723,7 @@
       "front": "cerca de",
       "back": "near / close to",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Vivo <b>cerca de</b> la estación.",
       "sentenceEn": "I live near the station."
     },
@@ -641,6 +731,7 @@
       "front": "lejos de",
       "back": "far from",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "El aeropuerto está <b>lejos de</b> la ciudad.",
       "sentenceEn": "The airport is far from the city."
     },
@@ -648,6 +739,7 @@
       "front": "dentro de",
       "back": "inside",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Las llaves están <b>dentro de</b> la caja.",
       "sentenceEn": "The keys are inside the box."
     },
@@ -655,6 +747,7 @@
       "front": "fuera de",
       "back": "outside",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Los niños juegan <b>fuera de</b> la casa.",
       "sentenceEn": "The children play outside the house."
     },
@@ -662,6 +755,7 @@
       "front": "entre",
       "back": "between / among",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "La tienda está <b>entre</b> el banco y la cafetería.",
       "sentenceEn": "The store is between the bank and the café."
     },
@@ -669,6 +763,7 @@
       "front": "alrededor de",
       "back": "around",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Hay árboles <b>alrededor de</b> la plaza.",
       "sentenceEn": "There are trees around the plaza."
     },
@@ -676,6 +771,7 @@
       "front": "enfrente de",
       "back": "opposite / across from",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "El cine está <b>enfrente de</b> la biblioteca.",
       "sentenceEn": "The cinema is across from the library."
     },
@@ -683,6 +779,7 @@
       "front": "frente a",
       "back": "facing / in front of",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "El hotel está <b>frente a</b> la playa.",
       "sentenceEn": "The hotel is facing the beach."
     },
@@ -690,6 +787,7 @@
       "front": "a la derecha de",
       "back": "to the right of",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "El baño está <b>a la derecha de</b> la cocina.",
       "sentenceEn": "The bathroom is to the right of the kitchen."
     },
@@ -697,6 +795,7 @@
       "front": "a la izquierda de",
       "back": "to the left of",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Mi oficina está <b>a la izquierda de</b> la entrada.",
       "sentenceEn": "My office is to the left of the entrance."
     },
@@ -704,6 +803,7 @@
       "front": "en medio de",
       "back": "in the middle of",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Hay una fuente <b>en medio de</b> la plaza.",
       "sentenceEn": "There is a fountain in the middle of the plaza."
     },
@@ -711,6 +811,7 @@
       "front": "al fondo de",
       "back": "at the back of",
       "tags": ["prepositions-of-place"],
+      "difficulty": "advanced",
       "sentence": "Los servicios están <b>al fondo de</b> la tienda.",
       "sentenceEn": "The restrooms are at the back of the store."
     },
@@ -718,6 +819,7 @@
       "front": "en la esquina de",
       "back": "at the corner of",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Nos vemos <b>en la esquina de</b> la calle.",
       "sentenceEn": "We'll meet at the corner of the street."
     },
@@ -725,6 +827,7 @@
       "front": "a lo largo de",
       "back": "along",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Caminamos <b>a lo largo de</b> la playa.",
       "sentenceEn": "We walked along the beach."
     },
@@ -732,6 +835,7 @@
       "front": "a través de",
       "back": "through / across",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "La luz entraba <b>a través de</b> la ventana.",
       "sentenceEn": "The light came in through the window."
     },
@@ -739,6 +843,7 @@
       "front": "más allá de",
       "back": "beyond",
       "tags": ["prepositions-of-place"],
+      "difficulty": "advanced",
       "sentence": "El pueblo está <b>más allá de</b> las montañas.",
       "sentenceEn": "The village is beyond the mountains."
     },
@@ -746,6 +851,7 @@
       "front": "hacia",
       "back": "toward",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Caminó <b>hacia</b> la puerta.",
       "sentenceEn": "He walked toward the door."
     },
@@ -753,6 +859,7 @@
       "front": "en",
       "back": "in / at / on",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Estoy <b>en</b> casa.",
       "sentenceEn": "I'm at home."
     },
@@ -760,6 +867,7 @@
       "front": "por",
       "back": "through / along / around",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Paseamos <b>por</b> el parque.",
       "sentenceEn": "We strolled through the park."
     },
@@ -767,6 +875,7 @@
       "front": "hasta",
       "back": "up to / as far as",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Caminamos <b>hasta</b> el final de la calle.",
       "sentenceEn": "We walked as far as the end of the street."
     },
@@ -774,6 +883,7 @@
       "front": "desde",
       "back": "from",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Se ve el mar <b>desde</b> aquí.",
       "sentenceEn": "You can see the sea from here."
     },
@@ -781,6 +891,7 @@
       "front": "contra",
       "back": "against",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Apoyó la escalera <b>contra</b> la pared.",
       "sentenceEn": "He leaned the ladder against the wall."
     },
@@ -788,6 +899,7 @@
       "front": "arriba",
       "back": "above / upstairs",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Mi habitación está <b>arriba</b>.",
       "sentenceEn": "My room is upstairs."
     },
@@ -795,6 +907,7 @@
       "front": "abajo",
       "back": "below / downstairs",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "La cocina está <b>abajo</b>.",
       "sentenceEn": "The kitchen is downstairs."
     },
@@ -802,6 +915,7 @@
       "front": "afuera",
       "back": "outside",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Espérame <b>afuera</b>.",
       "sentenceEn": "Wait for me outside."
     },
@@ -809,6 +923,7 @@
       "front": "adentro",
       "back": "inside",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Vamos <b>adentro</b>, hace frío.",
       "sentenceEn": "Let's go inside, it's cold."
     },
@@ -816,6 +931,7 @@
       "front": "aquí",
       "back": "here",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "sentence": "Ven <b>aquí</b>.",
       "sentenceEn": "Come here."
     },
@@ -823,6 +939,7 @@
       "front": "allí",
       "back": "there",
       "tags": ["prepositions-of-place"],
+      "difficulty": "beginner",
       "synonym": "ahí",
       "sentence": "Dejé el libro <b>allí</b>.",
       "sentenceEn": "I left the book there."
@@ -831,6 +948,7 @@
       "front": "en algún lugar",
       "back": "somewhere",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Las llaves deben estar <b>en algún lugar</b>.",
       "sentenceEn": "The keys must be somewhere."
     },
@@ -838,6 +956,7 @@
       "front": "en ningún lugar",
       "back": "nowhere",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "No lo encontré <b>en ningún lugar</b>.",
       "sentenceEn": "I couldn't find it anywhere."
     },
@@ -845,6 +964,7 @@
       "front": "en todas partes",
       "back": "everywhere",
       "tags": ["prepositions-of-place"],
+      "difficulty": "intermediate",
       "sentence": "Hay flores <b>en todas partes</b>.",
       "sentenceEn": "There are flowers everywhere."
     },
@@ -852,6 +972,7 @@
       "front": "la encía",
       "back": "gum",
       "tags": ["body-parts"],
+      "difficulty": "intermediate",
       "sentence": "Le sangraban <b>las encías</b> al cepillarse.",
       "sentenceEn": "His gums bled when brushing."
     },
@@ -859,6 +980,7 @@
       "front": "rojo",
       "back": "red",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "sentence": "Llevaba un vestido <b>rojo</b>.",
       "sentenceEn": "She wore a red dress."
     },
@@ -866,6 +988,7 @@
       "front": "azul",
       "back": "blue",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "sentence": "El cielo está <b>azul</b> hoy.",
       "sentenceEn": "The sky is blue today."
     },
@@ -873,6 +996,7 @@
       "front": "verde",
       "back": "green",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "sentence": "La hierba es <b>verde</b>.",
       "sentenceEn": "The grass is green."
     },
@@ -880,6 +1004,7 @@
       "front": "amarillo",
       "back": "yellow",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "sentence": "El sol es <b>amarillo</b>.",
       "sentenceEn": "The sun is yellow."
     },
@@ -887,6 +1012,7 @@
       "front": "naranja",
       "back": "orange",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "synonym": "anaranjado",
       "sentence": "Las hojas se vuelven <b>naranjas</b> en otoño.",
       "sentenceEn": "The leaves turn orange in autumn."
@@ -895,6 +1021,7 @@
       "front": "morado",
       "back": "purple",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "synonym": "púrpura",
       "sentence": "Las uvas son <b>moradas</b>.",
       "sentenceEn": "The grapes are purple."
@@ -903,6 +1030,7 @@
       "front": "rosa",
       "back": "pink",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "synonym": "rosado",
       "sentence": "Le regaló flores <b>rosas</b>.",
       "sentenceEn": "He gave her pink flowers."
@@ -911,6 +1039,7 @@
       "front": "blanco",
       "back": "white",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "sentence": "La nieve es <b>blanca</b>.",
       "sentenceEn": "The snow is white."
     },
@@ -918,6 +1047,7 @@
       "front": "negro",
       "back": "black",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "sentence": "El gato es <b>negro</b>.",
       "sentenceEn": "The cat is black."
     },
@@ -925,6 +1055,7 @@
       "front": "gris",
       "back": "gray",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "sentence": "Las nubes están <b>grises</b>.",
       "sentenceEn": "The clouds are gray."
     },
@@ -932,6 +1063,7 @@
       "front": "marrón",
       "back": "brown",
       "tags": ["colors"],
+      "difficulty": "beginner",
       "synonym": "café",
       "sentence": "Tiene los ojos <b>marrones</b>.",
       "sentenceEn": "She has brown eyes."
@@ -940,6 +1072,7 @@
       "front": "dorado",
       "back": "gold / golden",
       "tags": ["colors"],
+      "difficulty": "intermediate",
       "sentence": "Brillaba con un tono <b>dorado</b>.",
       "sentenceEn": "It shone with a golden tone."
     },
@@ -947,6 +1080,7 @@
       "front": "plateado",
       "back": "silver",
       "tags": ["colors"],
+      "difficulty": "intermediate",
       "sentence": "Llevaba un anillo <b>plateado</b>.",
       "sentenceEn": "She wore a silver ring."
     },
@@ -954,6 +1088,7 @@
       "front": "celeste",
       "back": "sky blue / light blue",
       "tags": ["colors"],
+      "difficulty": "intermediate",
       "synonym": "azul claro",
       "sentence": "Pintaron la habitación de <b>celeste</b>.",
       "sentenceEn": "They painted the room sky blue."
@@ -962,6 +1097,7 @@
       "front": "turquesa",
       "back": "turquoise",
       "tags": ["colors"],
+      "difficulty": "intermediate",
       "sentence": "El mar era de un color <b>turquesa</b>.",
       "sentenceEn": "The sea was a turquoise color."
     },
@@ -969,6 +1105,7 @@
       "front": "violeta",
       "back": "violet",
       "tags": ["colors"],
+      "difficulty": "intermediate",
       "sentence": "Las flores <b>violetas</b> son muy bonitas.",
       "sentenceEn": "Violet flowers are very pretty."
     },
@@ -976,6 +1113,7 @@
       "front": "beige",
       "back": "beige",
       "tags": ["colors"],
+      "difficulty": "intermediate",
       "sentence": "Las paredes son de color <b>beige</b>.",
       "sentenceEn": "The walls are beige."
     },
@@ -983,6 +1121,7 @@
       "front": "oscuro",
       "back": "dark",
       "tags": ["colors"],
+      "difficulty": "intermediate",
       "sentence": "Prefiere los colores <b>oscuros</b>.",
       "sentenceEn": "He prefers dark colors."
     },
@@ -990,6 +1129,7 @@
       "front": "claro",
       "back": "light",
       "tags": ["colors"],
+      "difficulty": "intermediate",
       "sentence": "Su pelo es castaño <b>claro</b>.",
       "sentenceEn": "Her hair is light brown."
     },
@@ -997,6 +1137,7 @@
       "front": "sin embargo",
       "back": "however",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "Estaba cansado; <b>sin embargo</b>, terminó el trabajo.",
       "sentenceEn": "He was tired; however, he finished the work."
     },
@@ -1004,6 +1145,7 @@
       "front": "no obstante",
       "back": "nevertheless",
       "tags": ["transition-phrases"],
+      "difficulty": "advanced",
       "sentence": "Llovía mucho; <b>no obstante</b>, salimos a caminar.",
       "sentenceEn": "It was raining a lot; nevertheless, we went for a walk."
     },
@@ -1011,6 +1153,7 @@
       "front": "aunque",
       "back": "although",
       "tags": ["transition-phrases"],
+      "difficulty": "beginner",
       "sentence": "<b>Aunque</b> estaba enferma, fue a trabajar.",
       "sentenceEn": "Although she was sick, she went to work."
     },
@@ -1018,6 +1161,7 @@
       "front": "a pesar de",
       "back": "despite",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "<b>A pesar de</b> la lluvia, el partido continuó.",
       "sentenceEn": "Despite the rain, the game continued."
     },
@@ -1025,6 +1169,7 @@
       "front": "en cambio",
       "back": "instead / on the contrary",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "No quiso café; <b>en cambio</b>, pidió té.",
       "sentenceEn": "He didn't want coffee; instead, he asked for tea."
     },
@@ -1032,6 +1177,7 @@
       "front": "por otro lado",
       "back": "on the other hand",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "Es caro; <b>por otro lado</b>, es de buena calidad.",
       "sentenceEn": "It's expensive; on the other hand, it's good quality."
     },
@@ -1039,6 +1185,7 @@
       "front": "por eso",
       "back": "that's why",
       "tags": ["transition-phrases"],
+      "difficulty": "beginner",
       "sentence": "Estudié mucho, <b>por eso</b> aprobé el examen.",
       "sentenceEn": "I studied a lot, that's why I passed the exam."
     },
@@ -1046,6 +1193,7 @@
       "front": "por lo tanto",
       "back": "therefore",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "No tenía dinero; <b>por lo tanto</b>, no pudo comprar nada.",
       "sentenceEn": "He had no money; therefore, he couldn't buy anything."
     },
@@ -1053,6 +1201,7 @@
       "front": "así que",
       "back": "so",
       "tags": ["transition-phrases"],
+      "difficulty": "beginner",
       "sentence": "Perdí el autobús, <b>así que</b> llegué tarde.",
       "sentenceEn": "I missed the bus, so I arrived late."
     },
@@ -1060,6 +1209,7 @@
       "front": "debido a",
       "back": "due to",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "El vuelo se canceló <b>debido a</b> la tormenta.",
       "sentenceEn": "The flight was canceled due to the storm."
     },
@@ -1067,6 +1217,7 @@
       "front": "ya que",
       "back": "since",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "<b>Ya que</b> estás aquí, ayúdame con esto.",
       "sentenceEn": "Since you're here, help me with this."
     },
@@ -1074,6 +1225,7 @@
       "front": "además",
       "back": "moreover / besides",
       "tags": ["transition-phrases"],
+      "difficulty": "beginner",
       "sentence": "Es inteligente y, <b>además</b>, muy simpático.",
       "sentenceEn": "He's intelligent and, moreover, very nice."
     },
@@ -1081,6 +1233,7 @@
       "front": "incluso",
       "back": "even",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "<b>Incluso</b> los expertos se equivocan a veces.",
       "sentenceEn": "Even experts make mistakes sometimes."
     },
@@ -1088,6 +1241,7 @@
       "front": "asimismo",
       "back": "likewise",
       "tags": ["transition-phrases"],
+      "difficulty": "advanced",
       "sentence": "Le gusta leer; <b>asimismo</b>, disfruta escribiendo.",
       "sentenceEn": "He likes to read; likewise, he enjoys writing."
     },
@@ -1095,6 +1249,7 @@
       "front": "luego",
       "back": "then",
       "tags": ["transition-phrases"],
+      "difficulty": "beginner",
       "sentence": "Primero desayuné, <b>luego</b> salí de casa.",
       "sentenceEn": "First I had breakfast, then I left the house."
     },
@@ -1102,6 +1257,7 @@
       "front": "mientras tanto",
       "back": "meanwhile",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "Ella cocinaba; <b>mientras tanto</b>, él ponía la mesa.",
       "sentenceEn": "She was cooking; meanwhile, he was setting the table."
     },
@@ -1109,6 +1265,7 @@
       "front": "de repente",
       "back": "suddenly",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "<b>De repente</b>, escuchamos un ruido fuerte.",
       "sentenceEn": "Suddenly, we heard a loud noise."
     },
@@ -1116,6 +1273,7 @@
       "front": "al principio",
       "back": "at first",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "<b>Al principio</b> no entendía, pero luego aprendí.",
       "sentenceEn": "At first I didn't understand, but then I learned."
     },
@@ -1123,6 +1281,7 @@
       "front": "por fin",
       "back": "finally",
       "tags": ["transition-phrases"],
+      "difficulty": "beginner",
       "sentence": "<b>Por fin</b> llegaron las vacaciones.",
       "sentenceEn": "Finally, the holidays arrived."
     },
@@ -1130,6 +1289,7 @@
       "front": "es decir",
       "back": "that is to say",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "Es bilingüe, <b>es decir</b>, habla dos idiomas.",
       "sentenceEn": "He's bilingual, that is to say, he speaks two languages."
     },
@@ -1137,6 +1297,7 @@
       "front": "en otras palabras",
       "back": "in other words",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "No aprobó; <b>en otras palabras</b>, suspendió.",
       "sentenceEn": "He didn't pass; in other words, he failed."
     },
@@ -1144,6 +1305,7 @@
       "front": "o sea",
       "back": "I mean / in other words",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "Es mi prima, <b>o sea</b>, la hija de mi tío.",
       "sentenceEn": "She's my cousin, I mean, my uncle's daughter."
     },
@@ -1151,6 +1313,7 @@
       "front": "en resumen",
       "back": "in summary",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "<b>En resumen</b>, fue un día muy productivo.",
       "sentenceEn": "In summary, it was a very productive day."
     },
@@ -1158,6 +1321,7 @@
       "front": "al fin y al cabo",
       "back": "after all",
       "tags": ["transition-phrases"],
+      "difficulty": "advanced",
       "sentence": "<b>Al fin y al cabo</b>, todos cometemos errores.",
       "sentenceEn": "After all, we all make mistakes."
     },
@@ -1165,6 +1329,7 @@
       "front": "de todos modos",
       "back": "anyway",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "No me invitaron, pero <b>de todos modos</b> no quería ir.",
       "sentenceEn": "They didn't invite me, but I didn't want to go anyway."
     },
@@ -1172,6 +1337,7 @@
       "front": "de regreso",
       "back": "on the way back",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "<b>De regreso</b> a casa, compré pan.",
       "sentenceEn": "On the way back home, I bought bread."
     },
@@ -1179,6 +1345,7 @@
       "front": "de camino",
       "back": "on the way",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "<b>De camino</b> al trabajo, vi a un amigo.",
       "sentenceEn": "On the way to work, I saw a friend."
     },
@@ -1186,6 +1353,7 @@
       "front": "de vuelta",
       "back": "back / returning",
       "tags": ["transition-phrases"],
+      "difficulty": "intermediate",
       "sentence": "Estoy <b>de vuelta</b> después de las vacaciones.",
       "sentenceEn": "I'm back after the holidays."
     }

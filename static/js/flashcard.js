@@ -8,6 +8,8 @@ class Flashcard {
     this.shuffled = true;
     this.selectedTags = new Set();
     this.availableTags = [];
+    this.selectedDifficulties = new Set();
+    this.availableDifficulties = [];
     this.dataUrl = options.dataUrl || null;
 
     if (options.cards) {
@@ -30,6 +32,7 @@ class Flashcard {
   init(cards) {
     this.allCards = cards.slice();
     this.extractTags();
+    this.extractDifficulties();
     this.filterCards();
     this.render();
     this.bindEvents();
@@ -57,13 +60,28 @@ class Flashcard {
     this.availableTags = Array.from(tagSet).sort();
   }
 
+  extractDifficulties() {
+    const diffSet = new Set();
+    this.allCards.forEach(card => {
+      if (card.difficulty) {
+        diffSet.add(card.difficulty);
+      }
+    });
+    const order = ['beginner', 'intermediate', 'advanced'];
+    this.availableDifficulties = order.filter(d => diffSet.has(d));
+    this.selectedDifficulties = new Set(this.availableDifficulties);
+  }
+
   filterCards() {
     if (this.selectedTags.size === 0) {
       this.cards = [];
     } else {
-      this.cards = this.allCards.filter(card =>
-        card.tags && card.tags.some(tag => this.selectedTags.has(tag))
-      );
+      this.cards = this.allCards.filter(card => {
+        const matchesTag = card.tags && card.tags.some(tag => this.selectedTags.has(tag));
+        const matchesDiff = this.selectedDifficulties.size === 0 ||
+          this.selectedDifficulties.has(card.difficulty);
+        return matchesTag && matchesDiff;
+      });
     }
     if (this.shuffled && this.cards.length > 0) {
       for (let i = this.cards.length - 1; i > 0; i--) {
@@ -83,14 +101,25 @@ class Flashcard {
     return `<div class="flashcard-tags">${buttons}</div>`;
   }
 
+  renderDifficulties() {
+    if (this.availableDifficulties.length === 0) return '';
+    const buttons = this.availableDifficulties.map(diff => {
+      const selected = this.selectedDifficulties.has(diff) ? ' selected' : '';
+      return `<button class="difficulty-btn${selected}" data-difficulty="${diff}">${diff}</button>`;
+    }).join('');
+    return `<div class="flashcard-difficulties">${buttons}</div>`;
+  }
+
   render() {
     const tagsHtml = this.renderTags();
+    const diffHtml = this.renderDifficulties();
 
     if (this.cards.length === 0) {
       this.container.innerHTML = `
         <div class="flashcard-deck">
+          <p class="flashcard-prompt">Select topics below to start studying.</p>
           ${tagsHtml}
-          <p class="flashcard-prompt">Select topics above to start studying.</p>
+          ${diffHtml}
         </div>
       `;
       return;
@@ -102,11 +131,6 @@ class Flashcard {
     const extra = this.renderExtra(card);
     this.container.innerHTML = `
       <div class="flashcard-deck">
-        ${tagsHtml}
-        <div class="flashcard-controls">
-          <button id="direction-btn">${this.reversed ? 'EN → ES' : 'ES → EN'}</button>
-          <button id="shuffle-btn">${this.shuffled ? 'Ordered' : 'Shuffle'}</button>
-        </div>
         <div class="flashcard" id="flashcard">
           <div class="flashcard-inner">
             <div class="flashcard-front">${front}</div>
@@ -121,6 +145,12 @@ class Flashcard {
           <button id="next-btn" ${this.currentIndex === this.cards.length - 1 ? 'disabled' : ''}>Next</button>
         </div>
         <div class="flashcard-progress">${this.currentIndex + 1} / ${this.cards.length}</div>
+        ${tagsHtml}
+        ${diffHtml}
+        <div class="flashcard-controls">
+          <button id="direction-btn">${this.reversed ? 'EN → ES' : 'ES → EN'}</button>
+          <button id="shuffle-btn">${this.shuffled ? 'Ordered' : 'Shuffle'}</button>
+        </div>
       </div>
     `;
   }
@@ -128,6 +158,9 @@ class Flashcard {
   bindEvents() {
     this.container.querySelectorAll('.tag-btn').forEach(btn => {
       btn.addEventListener('click', () => this.toggleTag(btn.dataset.tag));
+    });
+    this.container.querySelectorAll('.difficulty-btn').forEach(btn => {
+      btn.addEventListener('click', () => this.toggleDifficulty(btn.dataset.difficulty));
     });
 
     const flashcard = this.container.querySelector('#flashcard');
@@ -158,6 +191,17 @@ class Flashcard {
       this.selectedTags.delete(tag);
     } else {
       this.selectedTags.add(tag);
+    }
+    this.filterCards();
+    this.render();
+    this.bindEvents();
+  }
+
+  toggleDifficulty(difficulty) {
+    if (this.selectedDifficulties.has(difficulty)) {
+      this.selectedDifficulties.delete(difficulty);
+    } else {
+      this.selectedDifficulties.add(difficulty);
     }
     this.filterCards();
     this.render();
