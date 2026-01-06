@@ -992,6 +992,202 @@
       "tags": ["colors"],
       "sentence": "Su pelo es castaño <b>claro</b>.",
       "sentenceEn": "Her hair is light brown."
+    },
+    {
+      "front": "sin embargo",
+      "back": "however",
+      "tags": ["transition-phrases"],
+      "sentence": "Estaba cansado; <b>sin embargo</b>, terminó el trabajo.",
+      "sentenceEn": "He was tired; however, he finished the work."
+    },
+    {
+      "front": "no obstante",
+      "back": "nevertheless",
+      "tags": ["transition-phrases"],
+      "sentence": "Llovía mucho; <b>no obstante</b>, salimos a caminar.",
+      "sentenceEn": "It was raining a lot; nevertheless, we went for a walk."
+    },
+    {
+      "front": "aunque",
+      "back": "although",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>Aunque</b> estaba enferma, fue a trabajar.",
+      "sentenceEn": "Although she was sick, she went to work."
+    },
+    {
+      "front": "a pesar de",
+      "back": "despite",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>A pesar de</b> la lluvia, el partido continuó.",
+      "sentenceEn": "Despite the rain, the game continued."
+    },
+    {
+      "front": "en cambio",
+      "back": "instead / on the contrary",
+      "tags": ["transition-phrases"],
+      "sentence": "No quiso café; <b>en cambio</b>, pidió té.",
+      "sentenceEn": "He didn't want coffee; instead, he asked for tea."
+    },
+    {
+      "front": "por otro lado",
+      "back": "on the other hand",
+      "tags": ["transition-phrases"],
+      "sentence": "Es caro; <b>por otro lado</b>, es de buena calidad.",
+      "sentenceEn": "It's expensive; on the other hand, it's good quality."
+    },
+    {
+      "front": "por eso",
+      "back": "that's why",
+      "tags": ["transition-phrases"],
+      "sentence": "Estudié mucho, <b>por eso</b> aprobé el examen.",
+      "sentenceEn": "I studied a lot, that's why I passed the exam."
+    },
+    {
+      "front": "por lo tanto",
+      "back": "therefore",
+      "tags": ["transition-phrases"],
+      "sentence": "No tenía dinero; <b>por lo tanto</b>, no pudo comprar nada.",
+      "sentenceEn": "He had no money; therefore, he couldn't buy anything."
+    },
+    {
+      "front": "así que",
+      "back": "so",
+      "tags": ["transition-phrases"],
+      "sentence": "Perdí el autobús, <b>así que</b> llegué tarde.",
+      "sentenceEn": "I missed the bus, so I arrived late."
+    },
+    {
+      "front": "debido a",
+      "back": "due to",
+      "tags": ["transition-phrases"],
+      "sentence": "El vuelo se canceló <b>debido a</b> la tormenta.",
+      "sentenceEn": "The flight was canceled due to the storm."
+    },
+    {
+      "front": "ya que",
+      "back": "since",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>Ya que</b> estás aquí, ayúdame con esto.",
+      "sentenceEn": "Since you're here, help me with this."
+    },
+    {
+      "front": "además",
+      "back": "moreover / besides",
+      "tags": ["transition-phrases"],
+      "sentence": "Es inteligente y, <b>además</b>, muy simpático.",
+      "sentenceEn": "He's intelligent and, moreover, very nice."
+    },
+    {
+      "front": "incluso",
+      "back": "even",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>Incluso</b> los expertos se equivocan a veces.",
+      "sentenceEn": "Even experts make mistakes sometimes."
+    },
+    {
+      "front": "asimismo",
+      "back": "likewise",
+      "tags": ["transition-phrases"],
+      "sentence": "Le gusta leer; <b>asimismo</b>, disfruta escribiendo.",
+      "sentenceEn": "He likes to read; likewise, he enjoys writing."
+    },
+    {
+      "front": "luego",
+      "back": "then",
+      "tags": ["transition-phrases"],
+      "sentence": "Primero desayuné, <b>luego</b> salí de casa.",
+      "sentenceEn": "First I had breakfast, then I left the house."
+    },
+    {
+      "front": "mientras tanto",
+      "back": "meanwhile",
+      "tags": ["transition-phrases"],
+      "sentence": "Ella cocinaba; <b>mientras tanto</b>, él ponía la mesa.",
+      "sentenceEn": "She was cooking; meanwhile, he was setting the table."
+    },
+    {
+      "front": "de repente",
+      "back": "suddenly",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>De repente</b>, escuchamos un ruido fuerte.",
+      "sentenceEn": "Suddenly, we heard a loud noise."
+    },
+    {
+      "front": "al principio",
+      "back": "at first",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>Al principio</b> no entendía, pero luego aprendí.",
+      "sentenceEn": "At first I didn't understand, but then I learned."
+    },
+    {
+      "front": "por fin",
+      "back": "finally",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>Por fin</b> llegaron las vacaciones.",
+      "sentenceEn": "Finally, the holidays arrived."
+    },
+    {
+      "front": "es decir",
+      "back": "that is to say",
+      "tags": ["transition-phrases"],
+      "sentence": "Es bilingüe, <b>es decir</b>, habla dos idiomas.",
+      "sentenceEn": "He's bilingual, that is to say, he speaks two languages."
+    },
+    {
+      "front": "en otras palabras",
+      "back": "in other words",
+      "tags": ["transition-phrases"],
+      "sentence": "No aprobó; <b>en otras palabras</b>, suspendió.",
+      "sentenceEn": "He didn't pass; in other words, he failed."
+    },
+    {
+      "front": "o sea",
+      "back": "I mean / in other words",
+      "tags": ["transition-phrases"],
+      "sentence": "Es mi prima, <b>o sea</b>, la hija de mi tío.",
+      "sentenceEn": "She's my cousin, I mean, my uncle's daughter."
+    },
+    {
+      "front": "en resumen",
+      "back": "in summary",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>En resumen</b>, fue un día muy productivo.",
+      "sentenceEn": "In summary, it was a very productive day."
+    },
+    {
+      "front": "al fin y al cabo",
+      "back": "after all",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>Al fin y al cabo</b>, todos cometemos errores.",
+      "sentenceEn": "After all, we all make mistakes."
+    },
+    {
+      "front": "de todos modos",
+      "back": "anyway",
+      "tags": ["transition-phrases"],
+      "sentence": "No me invitaron, pero <b>de todos modos</b> no quería ir.",
+      "sentenceEn": "They didn't invite me, but I didn't want to go anyway."
+    },
+    {
+      "front": "de regreso",
+      "back": "on the way back",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>De regreso</b> a casa, compré pan.",
+      "sentenceEn": "On the way back home, I bought bread."
+    },
+    {
+      "front": "de camino",
+      "back": "on the way",
+      "tags": ["transition-phrases"],
+      "sentence": "<b>De camino</b> al trabajo, vi a un amigo.",
+      "sentenceEn": "On the way to work, I saw a friend."
+    },
+    {
+      "front": "de vuelta",
+      "back": "back / returning",
+      "tags": ["transition-phrases"],
+      "sentence": "Estoy <b>de vuelta</b> después de las vacaciones.",
+      "sentenceEn": "I'm back after the holidays."
     }
   ]
 }
