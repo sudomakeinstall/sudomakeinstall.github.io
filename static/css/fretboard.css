@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600&display=swap');
+
+pre code, .fretboard {
+    font-family: "Noto Sans Mono", monospace;
+}
+
+.fretboard {
+    white-space: pre-wrap;
+    font-size: 0.85em;
+    line-height: 1.4;
+}
+
+.fretboard {
+    color: rgba(128, 128, 128, 0.5);
+}
+
+.fretboard .note.highlight {
+    color: var(--text);
+}
+
+.fretboard-controls {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.fret-numbers {
+    margin-top: 0.5rem;
+}
+
+.box-toggle {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    background: transparent;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.box-toggle:hover {
+    background: rgba(128, 128, 128, 0.1);
+}
+
+.box-toggle.active {
+    background: var(--primary-color);
+    color: var(--bg);
+}
