@@ -49,6 +49,7 @@ weight = 5
   - Type 1 (direct/supravalvular): defect in the AV membranous septum above the tricuspid valve
   - Type 2 (indirect/infravalvular): perimembranous VSD with tricuspid valve abnormality allowing shunt through the valve
   - Type 3: combined direct and indirect components
+- **Holmes Heart** - Double inlet left ventricle with normally related great arteries (DILV with NRGA)
 - **Holt-Oram Syndrome** — Autosomal dominant condition with upper limb defects (typically radial ray anomalies) and congenital heart defects, most commonly ASD or VSD.
 - **Loeys-Dietz Syndrome** — TGF-β pathway mutations causing connective tissue disorder with aortic root aneurysms, arterial tortuosity, hypertelorism, and bifid uvula; more aggressive vascular disease than Marfan syndrome.
 - **Lutembacher Syndrome** — Combination of ASD (typically secundum) with mitral stenosis (congenital or rheumatic), causing altered shunt hemodynamics.
