@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const inputs = ['height', 'weight', 'svc', 'ivc', 'mpa', 'rpa', 'lpa', 'lpv', 'rpv', 'ao'];
+  const inputs = ['height', 'weight', 'rsvc', 'lsvc', 'glenn', 'ivc', 'fontan', 'mpa', 'rpa', 'lpa', 'rspv', 'rmpv', 'ripv', 'lspv', 'lmpv', 'lipv', 'ao'];
 
   inputs.forEach(id => {
     const element = document.getElementById(id);
@@ -63,8 +63,16 @@ document.addEventListener('DOMContentLoaded', function() {
     let text = '';
     let hasResults = false;
 
-    const qsv = hasValue.svc && hasValue.ivc ? values.svc + values.ivc : null;
-    const qpv = hasValue.lpv && hasValue.rpv ? values.lpv + values.rpv : null;
+    const hasUpperCaval = hasValue.rsvc || hasValue.lsvc || hasValue.glenn;
+    const upperCaval = (hasValue.rsvc ? values.rsvc : 0) + (hasValue.lsvc ? values.lsvc : 0) + (hasValue.glenn ? values.glenn : 0);
+    const hasLowerCaval = hasValue.ivc || hasValue.fontan;
+    const lowerCaval = (hasValue.ivc ? values.ivc : 0) + (hasValue.fontan ? values.fontan : 0);
+    const qsv = hasUpperCaval && hasLowerCaval ? upperCaval + lowerCaval : null;
+    const hasRPV = hasValue.rspv || hasValue.rmpv || hasValue.ripv;
+    const hasLPV = hasValue.lspv || hasValue.lmpv || hasValue.lipv;
+    const rpvTotal = (hasValue.rspv ? values.rspv : 0) + (hasValue.rmpv ? values.rmpv : 0) + (hasValue.ripv ? values.ripv : 0);
+    const lpvTotal = (hasValue.lspv ? values.lspv : 0) + (hasValue.lmpv ? values.lmpv : 0) + (hasValue.lipv ? values.lipv : 0);
+    const qpv = hasRPV && hasLPV ? rpvTotal + lpvTotal : null;
     const qpa = hasValue.rpa && hasValue.lpa ? values.rpa + values.lpa : null;
     const mpaValue = hasValue.mpa ? values.mpa : qpa;
 
@@ -75,21 +83,39 @@ document.addEventListener('DOMContentLoaded', function() {
       hasResults = true;
     }
 
-    const flowInputs = ['svc', 'ivc', 'mpa', 'rpa', 'lpa', 'rpv', 'lpv', 'ao'];
+    const flowInputs = ['rsvc', 'lsvc', 'glenn', 'ivc', 'fontan', 'mpa', 'rpa', 'lpa', 'rspv', 'rmpv', 'ripv', 'lspv', 'lmpv', 'lipv', 'ao'];
     const hasAnyFlow = flowInputs.some(id => hasValue[id]);
 
     if (hasAnyFlow) {
       text += '\nFlows:\n\n';
 
-      if (hasValue.svc) {
-        text += `SVC/Glenn: ${values.svc.toFixed(2)} L/min`;
-        if (bsa) text += `, ${(values.svc / bsa).toFixed(2)} L/min/m^2`;
+      if (hasValue.rsvc) {
+        text += `RSVC: ${values.rsvc.toFixed(2)} L/min`;
+        if (bsa) text += `, ${(values.rsvc / bsa).toFixed(2)} L/min/m^2`;
+        text += '\n';
+      }
+
+      if (hasValue.lsvc) {
+        text += `LSVC: ${values.lsvc.toFixed(2)} L/min`;
+        if (bsa) text += `, ${(values.lsvc / bsa).toFixed(2)} L/min/m^2`;
+        text += '\n';
+      }
+
+      if (hasValue.glenn) {
+        text += `Glenn: ${values.glenn.toFixed(2)} L/min`;
+        if (bsa) text += `, ${(values.glenn / bsa).toFixed(2)} L/min/m^2`;
         text += '\n';
       }
 
       if (hasValue.ivc) {
-        text += `IVC/Fontan: ${values.ivc.toFixed(2)} L/min`;
+        text += `IVC: ${values.ivc.toFixed(2)} L/min`;
         if (bsa) text += `, ${(values.ivc / bsa).toFixed(2)} L/min/m^2`;
+        text += '\n';
+      }
+
+      if (hasValue.fontan) {
+        text += `Fontan: ${values.fontan.toFixed(2)} L/min`;
+        if (bsa) text += `, ${(values.fontan / bsa).toFixed(2)} L/min/m^2`;
         text += '\n';
       }
 
@@ -97,6 +123,16 @@ document.addEventListener('DOMContentLoaded', function() {
         text += `Total caval return: ${qsv.toFixed(2)} L/min`;
         if (bsa) text += `, ${(qsv / bsa).toFixed(2)} L/min/m^2`;
         text += '\n\n';
+      }
+
+      if (hasValue.mpa) {
+        text += `MPA: ${values.mpa.toFixed(2)} L/min`;
+        if (bsa) text += `, ${(values.mpa / bsa).toFixed(2)} L/min/m^2`;
+        text += '\n';
+      } else if (qpa !== null) {
+        text += `Total pulmonary arterial flow: ${qpa.toFixed(2)} L/min`;
+        if (bsa) text += `, ${(qpa / bsa).toFixed(2)} L/min/m^2`;
+        text += '\n';
       }
 
       if (hasValue.rpa) {
@@ -108,28 +144,20 @@ document.addEventListener('DOMContentLoaded', function() {
       if (hasValue.lpa) {
         text += `LPA: ${values.lpa.toFixed(2)} L/min`;
         if (bsa) text += `, ${(values.lpa / bsa).toFixed(2)} L/min/m^2`;
+        text += '\n\n';
+      } else if (hasValue.mpa || qpa !== null) {
         text += '\n';
       }
 
-      if (hasValue.mpa) {
-        text += `MPA: ${values.mpa.toFixed(2)} L/min`;
-        if (bsa) text += `, ${(values.mpa / bsa).toFixed(2)} L/min/m^2`;
-        text += '\n\n';
-      } else if (qpa !== null) {
-        text += `Total pulmonary arterial flow: ${qpa.toFixed(2)} L/min`;
-        if (bsa) text += `, ${(qpa / bsa).toFixed(2)} L/min/m^2`;
-        text += '\n\n';
-      }
-
-      if (hasValue.rpv) {
-        text += `RPV: ${values.rpv.toFixed(2)} L/min`;
-        if (bsa) text += `, ${(values.rpv / bsa).toFixed(2)} L/min/m^2`;
+      if (hasRPV) {
+        text += `RPV: ${rpvTotal.toFixed(2)} L/min`;
+        if (bsa) text += `, ${(rpvTotal / bsa).toFixed(2)} L/min/m^2`;
         text += '\n';
       }
 
-      if (hasValue.lpv) {
-        text += `LPV: ${values.lpv.toFixed(2)} L/min`;
-        if (bsa) text += `, ${(values.lpv / bsa).toFixed(2)} L/min/m^2`;
+      if (hasLPV) {
+        text += `LPV: ${lpvTotal.toFixed(2)} L/min`;
+        if (bsa) text += `, ${(lpvTotal / bsa).toFixed(2)} L/min/m^2`;
         text += '\n';
       }
 
@@ -149,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const hasArterialSplit = hasValue.rpa && hasValue.lpa;
-    const hasVenousSplit = hasValue.lpv && hasValue.rpv && qpv > 0;
+    const hasVenousSplit = hasLPV && hasRPV && qpv > 0;
 
     if (hasArterialSplit || hasVenousSplit) {
       text += '\nLung flow splits:\n\n';
@@ -164,8 +192,8 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       if (hasVenousSplit) {
-        const lpvPercent = (values.lpv / qpv * 100).toFixed(1);
-        const rpvPercent = (values.rpv / qpv * 100).toFixed(1);
+        const rpvPercent = (rpvTotal / qpv * 100).toFixed(1);
+        const lpvPercent = (lpvTotal / qpv * 100).toFixed(1);
         text += `Venous: R ${rpvPercent}% / L ${lpvPercent}%\n`;
       }
 

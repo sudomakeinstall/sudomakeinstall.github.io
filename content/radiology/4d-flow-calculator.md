@@ -26,13 +26,28 @@ scripts = ["js/flow-calculator.js"]
   <h3>Input Flows</h3>
   <div class="flow-inputs">
     <div class="input-group">
-      <label for="svc">SVC/Glenn:</label>
-      <input type="number" step="any" inputmode="decimal" id="svc" placeholder="0.0">
+      <label for="rsvc">RSVC:</label>
+      <input type="number" step="any" inputmode="decimal" id="rsvc" placeholder="0.0">
       <span class="unit">L/min</span>
     </div>
     <div class="input-group">
-      <label for="ivc">IVC/Fontan:</label>
+      <label for="lsvc">LSVC:</label>
+      <input type="number" step="any" inputmode="decimal" id="lsvc" placeholder="0.0">
+      <span class="unit">L/min</span>
+    </div>
+    <div class="input-group">
+      <label for="glenn">Glenn:</label>
+      <input type="number" step="any" inputmode="decimal" id="glenn" placeholder="0.0">
+      <span class="unit">L/min</span>
+    </div>
+    <div class="input-group">
+      <label for="ivc">IVC:</label>
       <input type="number" step="any" inputmode="decimal" id="ivc" placeholder="0.0">
+      <span class="unit">L/min</span>
+    </div>
+    <div class="input-group">
+      <label for="fontan">Fontan:</label>
+      <input type="number" step="any" inputmode="decimal" id="fontan" placeholder="0.0">
       <span class="unit">L/min</span>
     </div>
     <div class="input-group">
@@ -51,13 +66,33 @@ scripts = ["js/flow-calculator.js"]
       <span class="unit">L/min</span>
     </div>
     <div class="input-group">
-      <label for="rpv">RPV:</label>
-      <input type="number" step="any" inputmode="decimal" id="rpv" placeholder="0.0">
+      <label for="rspv">RSPV:</label>
+      <input type="number" step="any" inputmode="decimal" id="rspv" placeholder="0.0">
       <span class="unit">L/min</span>
     </div>
     <div class="input-group">
-      <label for="lpv">LPV:</label>
-      <input type="number" step="any" inputmode="decimal" id="lpv" placeholder="0.0">
+      <label for="rmpv">RMPV:</label>
+      <input type="number" step="any" inputmode="decimal" id="rmpv" placeholder="0.0">
+      <span class="unit">L/min</span>
+    </div>
+    <div class="input-group">
+      <label for="ripv">RIPV:</label>
+      <input type="number" step="any" inputmode="decimal" id="ripv" placeholder="0.0">
+      <span class="unit">L/min</span>
+    </div>
+    <div class="input-group">
+      <label for="lspv">LSPV:</label>
+      <input type="number" step="any" inputmode="decimal" id="lspv" placeholder="0.0">
+      <span class="unit">L/min</span>
+    </div>
+    <div class="input-group">
+      <label for="lmpv">LMPV:</label>
+      <input type="number" step="any" inputmode="decimal" id="lmpv" placeholder="0.0">
+      <span class="unit">L/min</span>
+    </div>
+    <div class="input-group">
+      <label for="lipv">LIPV:</label>
+      <input type="number" step="any" inputmode="decimal" id="lipv" placeholder="0.0">
       <span class="unit">L/min</span>
     </div>
     <div class="input-group">
