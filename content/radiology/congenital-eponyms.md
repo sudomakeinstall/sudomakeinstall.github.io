@@ -30,7 +30,7 @@ weight = 5
 - **Ross-Konno Procedure** — Combines the Ross (pulmonary autograft) with the Konno (aortoventriculoplasty) for patients requiring both aortic valve replacement and LVOT/annular enlargement. Often used in pediatric patients with congenital aortic stenosis and a hypoplastic annulus, as the autograft can grow with the child.
 - **Sano Shunt** — Non-valved RV-to-PA conduit used as an alternative to the BTT shunt in Norwood stage 1 palliation. Provides better diastolic coronary perfusion (no aortic runoff) compared to BTT, but requires ventriculotomy and has diastolic regurgitation into the RV.
 - **Senning Procedure** — Atrial switch for D-TGA using native atrial tissue flaps to redirect venous return. Functionally equivalent to Mustard but avoids prosthetic material. Leaves morphologic RV as systemic ventricle (physiologically equivalent to ccTGA). Largely supplanted by Jatene.
-- **Warden Procedure** — Repair for partial anomalous pulmonary venous return (especially high SVC type) by reimplanting the SVC to the right atrial appendage and baffling the anomalous veins.
+- **Warden Procedure** — Repair for partial anomalous pulmonary venous return (especially high SVC type) by reimplanting the SVC to the right atrial appendage and baffling the anomalous veins to the left atrium.
 - **Waterston Shunt** — Historical systemic-to-pulmonary shunt connecting the ascending aorta to the right pulmonary artery (largely abandoned due to complications).
 
 ## Pathologies
