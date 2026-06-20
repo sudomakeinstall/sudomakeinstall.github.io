@@ -28,13 +28,20 @@ NB:
 - Severity tiers one standard deviation wide.
 - Adapted from Table 3 of the reference.
 
+### LVEF: SCMR vs Echo
+
+| Parameter | Range | Borderline | Mild | Moderate | Severe |
+|-----------|-------|-|------|----------|--------|
+| SCMR (Male) | 51–77 | -- | 44–50 | 37–43 | <37 |
+| SCMR (Female) | 54–79 | -- | 48–53 | 42–47 | <42 |
+| Echo | 55-70 | 51-54 | 41-50 | 30-40 | <30 |
+
 ## RV Volumetry
 
 ### Male
 
 | Parameter | Mean±SD | Range | Mild | Moderate | Severe |
 |-----------|---------|-------|------|----------|--------|
-| RVM/BSA (g/m²) | 18 ± 4 | 11–26 | 27–30 | 31–34 | >34 |
 | RVEDV/BSA (mL/m²) | 82 ± 18 | 47–116 | 117–134 | 135–152 | >152 |
 | RVEF (%) | 58 ± 7 | 44–72 | 37–43 | 30–36 | <30 |
 
@@ -49,6 +56,14 @@ NB:
 - Papillary muscles/trabeculations included in the RV volume.
 - Severity tiers one standard deviation wide.
 - Adapted from Table 9 of the reference.
+
+### RVEF: SCMR vs Echo
+
+| Parameter | Range | Mild | Moderate | Severe |
+|-----------|-------|------|----------|--------|
+| SCMR (Male) | 44–72 | 37–43 | 30–36 | <30 |
+| SCMR (Female) | 47–75 | 40–46 | 33–39 | <33 |
+| Echo | >45 | 40-45 | 32-39 | <32 |
 
 ## Reference
 
