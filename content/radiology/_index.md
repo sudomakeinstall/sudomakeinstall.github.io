@@ -26,3 +26,4 @@ A collection of radiology tools and resources.
 - [4D Flow Consensus Statement (2023)](4d-flow-consensus-statement-2023/)
 - [Kawasaki Disease Scientific Statement (2023)](kawasaki-disease-scientific-statement-2023/)
 - [Chest Pain Guideline (2021)](chest-pain-guideline-2021/)
+- [SCMR Normal Values (2025)](scmr-normal-values-2025/)
