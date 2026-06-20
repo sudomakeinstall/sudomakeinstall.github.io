@@ -1,6 +1,6 @@
 +++
 title = "ARVC 2010 Task Force Criteria"
-description = "ARVC 2010 Task Force Friteria (Update)"
+description = "ARVC 2010 Task Force Criteria"
 date = 2026-06-20
 weight = 8
 +++
@@ -25,6 +25,8 @@ Regional RV akinesia, dyskinesia, or dyssynchronous contraction, plus ≥1 of:
 | RVEDV/BSA (male) | ≥ 110 mL/m² | 100–110 mL/m² |
 | RVEDV/BSA (female) | ≥ 100 mL/m² | 90–100 mL/m² |
 | RVEF | ≤ 40% | 40–45% |
+
+NB: As pointed out in the Padua criteria, these cutoffs are based on fast gradient echo sequences which predate SSFP and are known to underestimate volumes.
 
 ## Diagnostic Confidence
 
