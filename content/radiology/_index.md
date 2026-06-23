@@ -8,23 +8,26 @@ sort_by = "weight"
 
 A collection of radiology tools and resources.
 
-## Posts
+## Calculators
 
 - [4D Flow Calculator](4d-flow-calculator/) - Interactive calculator for 4D flow MRI
 - [Bernoulli Equation Calculator](bernoulli-equation/) - Calculate pressure gradients from velocities
 - [Body Surface Area Calculator](bsa-calculator/) - Calculate BSA using the DuBois formula
+- [ECV Calculator](ecv-calculator/) - Calculate extracellular volume fraction from T1 mapping
+
+## Guidelines and Summaries
+
+- [4D Flow Consensus Statement (Bissell, 2023)](bissell-4d-flow-2023/)
+- [ACHD Guideline (Gurvitz, 2025)](gurvitz-achd-2025/)
+- [ARVC Padua Criteria (Corrado, 2020)](corrado-arvc-padua-2020/)
+- [ARVC Task Force Criteria (Marcus, 2010)](marcus-arvc-task-force-2010/)
+- [Chest Pain Guideline (Gulati, 2021)](gulati-chest-pain-2021/)
+- [Kawasaki Disease Scientific Statement (Jone, 2024)](jone-kawasaki-2024/)
+- [SCMR Reference Ranges (Kawel-Boehm, 2025)](kawelboehm-scmr-reference-ranges-2025/)
+- [Valvular Disease CMR (Myerson, 2021)](myerson-valvular-disease-cmr-2021/)
+
+## Notes
+
 - [Cardiovascular Procedure Eponyms](cardiovascular-eponyms/) - Reference list of eponymous cardiovascular surgeries
 - [Congenital Heart Disease Eponyms](congenital-eponyms/) - Reference list of eponymous surgeries and pathologies
-- [ECV Calculator](ecv-calculator/) - Calculate extracellular volume fraction from T1 mapping
 - [Valvular Heart Disease](valvular-heart-disease/) - Valvular Heart Disease
-
-## Summaries
-
-- [ACHD Guideline (2025)](achd-guideline-2025/)
-- [ARVC Task Force Criteria (2010)](arvc-2010-task-force/)
-- [Padua Criteria for Arrhythmogenic Cardiomyopathy (2020)](arvc-padua-criteria-2020/)
-- [4D Flow Consensus Statement (2023)](4d-flow-consensus-statement-2023/)
-- [Kawasaki Disease Scientific Statement (2023)](kawasaki-disease-scientific-statement-2023/)
-- [Chest Pain Guideline (2021)](chest-pain-guideline-2021/)
-- [SCMR Normal Values (2025)](scmr-normal-values-2025/)
-- [Valvular Disease CMR (2021)](valvular-disease-cmr-2021/)

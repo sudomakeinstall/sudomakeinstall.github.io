@@ -1,6 +1,6 @@
 +++
-title = "SCMR Normal Values 2025"
-description = "SCMR Normal Values 2025"
+title = "SCMR Reference Ranges"
+description = "SCMR Reference Ranges (2025)"
 date = 2026-06-20
 weight = 6
 +++

@@ -1,6 +1,6 @@
 +++
-title = "Padua Criteria for Arrhythmogenic Cardiomyopathy"
-description = "Padua Criteria for Arrhythmogenic Cardiomyopathy (2020)"
+title = "ARVC Padua Criteria"
+description = "ARVC Padua Criteria (2020)"
 date = 2026-06-20
 weight = 8
 +++
