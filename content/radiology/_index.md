@@ -27,3 +27,4 @@ A collection of radiology tools and resources.
 - [Kawasaki Disease Scientific Statement (2023)](kawasaki-disease-scientific-statement-2023/)
 - [Chest Pain Guideline (2021)](chest-pain-guideline-2021/)
 - [SCMR Normal Values (2025)](scmr-normal-values-2025/)
+- [Valvular Disease CMR (2021)](valvular-disease-cmr-2021/)
