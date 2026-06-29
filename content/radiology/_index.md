@@ -22,6 +22,7 @@ A collection of radiology tools and resources.
 - [ARVC Padua Criteria (Corrado, 2020)](corrado-arvc-padua-2020/)
 - [ARVC Task Force Criteria (Marcus, 2010)](marcus-arvc-task-force-2010/)
 - [Chest Pain Guideline (Gulati, 2021)](gulati-chest-pain-2021/)
+- [HCM Guideline (Ommen, 2024)](ommen-hcm-2024/)
 - [Kawasaki Disease Scientific Statement (Jone, 2024)](jone-kawasaki-2024/)
 - [SCMR Reference Ranges (Kawel-Boehm, 2025)](kawelboehm-scmr-reference-ranges-2025/)
 - [Valvular Disease CMR (Myerson, 2021)](myerson-valvular-disease-cmr-2021/)
