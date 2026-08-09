@@ -27,6 +27,10 @@ A collection of radiology tools and resources.
 - [SCMR Reference Ranges (Kawel-Boehm, 2025)](kawelboehm-scmr-reference-ranges-2025/)
 - [Valvular Disease CMR (Myerson, 2021)](myerson-valvular-disease-cmr-2021/)
 
+## Trials
+
+- [SCOT-HEART](scot-heart/)
+
 ## Notes
 
 - [Cardiovascular Procedure Eponyms](cardiovascular-eponyms/) - Reference list of eponymous cardiovascular surgeries
